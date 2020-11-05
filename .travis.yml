@@ -25,8 +25,12 @@ script:
 - cd ..
 - rm -rf 3rdparty-plugins
 - java -jar IPKFeedGenerator.jar
-- cd
-
-after_success:
-- ./build.sh
+- git config --global user.email "bot@openvision.tech"
+- git config --global user.name "Open Vision 3rdparty bot"
+- git checkout master
+- git add -u
+- git add *
+- git commit --message "Travis build: $TRAVIS_BUILD_NUMBER"
+- git remote add upstream https://${GH_TOKEN}@github.com/OpenVisionE2/3rdparty-feed.git > /dev/null 2>&1
+- git push --quiet upstream master || echo "failed to push with error $?"
 
