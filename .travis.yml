@@ -1,0 +1,36 @@
+language: generic
+
+sudo: required
+dist: bionic
+
+jdk:
+  - openjdk11
+
+addons:
+  apt:
+    packages:
+    - rename
+    - lynx
+
+git:
+  depth: 1
+
+script:
+- cd feed
+- find . -name '*.ipk' -type f | xargs rm -f
+- find . -name '*Packages*' -type f | xargs rm -f
+- git clone --depth 1 https://github.com/oe-alliance/3rdparty-plugins.git
+- cd 3rdparty-plugins
+- mv -f *.ipk ../
+- cd ..
+- rm -rf 3rdparty-plugins
+- java -jar IPKFeedGenerator.jar
+- git config --global user.email "bot@openvision.tech"
+- git config --global user.name "Open Vision 3rdparty bot"
+- git checkout master
+- git add -u
+- git add *
+- git commit --message "Travis build: $TRAVIS_BUILD_NUMBER"
+- git remote add upstream https://${GH_TOKEN}@github.com/OpenVisionE2/3rdparty-feed.git > /dev/null 2>&1
+- git push --quiet upstream master || echo "failed to push with error $?"
+
