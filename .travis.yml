@@ -21,6 +21,8 @@ script:
 - find . -name '*Packages*' -type f | xargs rm -f
 - git clone --depth 1 https://github.com/oe-alliance/3rdparty-plugins.git
 - cd 3rdparty-plugins
+- ../ts.sh
+- ../pli.sh
 - ls -1 | grep -v '_all' | xargs rm -f
 - mv -f *.ipk ../
 - cd ..
