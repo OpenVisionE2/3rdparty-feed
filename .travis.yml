@@ -21,6 +21,13 @@ script:
 - find . -name '*Packages*' -type f | xargs rm -f
 - git clone --depth 1 https://github.com/oe-alliance/3rdparty-plugins.git
 - cd 3rdparty-plugins
+- wget http://downloads.openpli.org/feeds/openpli-7-release/3rd-party/Packages.gz
+- gzip -d Packages.gz
+- find -type f -name "*Packages*" | xargs -L1 sed -i '/^Filename: /p'
+- sed -n '/^Filename: /p' Packages > Packages-files
+- rm -f Packages
+- find -type f -name "*Packages*" | xargs -L1 sed -i 's|Filename: |http://downloads.openpli.org/feeds/openpli-7-release/3rd-party/|g'
+- wget --wait=1 -i Packages-files
 - ls -1 | grep -v '_all' | xargs rm -f
 - mv -f *.ipk ../
 - cd ..
