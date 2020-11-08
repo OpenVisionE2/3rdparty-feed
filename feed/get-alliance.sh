@@ -5,3 +5,4 @@ cd 3rdparty-plugins
 mv -f *.ipk ../
 cd ..
 rm -rf 3rdparty-plugins
+ls
