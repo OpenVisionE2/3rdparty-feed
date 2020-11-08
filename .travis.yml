@@ -27,6 +27,7 @@ script:
 - mv -f *.ipk ../
 - cd ..
 - rm -rf 3rdparty-plugins
+- find . -name '*plugin-picons-*' -type f | xargs rm -f
 - chmod 755 IPKFeedGenerator.jar
 - java -jar IPKFeedGenerator.jar
 - cd ..
