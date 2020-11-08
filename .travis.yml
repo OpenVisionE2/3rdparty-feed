@@ -23,6 +23,7 @@ script:
 - ./get-pli.sh
 - ./get-ts.sh
 - ./get-common.sh
+- find . -name '*.ipk' -size +98M | xargs rm -f
 - chmod 755 IPKFeedGenerator.jar
 - java -jar IPKFeedGenerator.jar
 - cd ..
