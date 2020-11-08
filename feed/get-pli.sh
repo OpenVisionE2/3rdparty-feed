@@ -11,4 +11,4 @@ find -type f -name "*Packages*" | xargs -L1 sed -i 's|Filename: |http://download
 wget --wait=1 -i Packages-files
 mv -f *.ipk ../
 cd ..
-ls -vr *.ipk | awk -F- '$1 == name{system ("rm \""$0"\"")}{name=$1}'
+rm -rf pli

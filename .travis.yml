@@ -19,15 +19,11 @@ script:
 - cd feed
 - find . -name '*.ipk' -type f | xargs rm -f
 - find . -name '*Packages*' -type f | xargs rm -f
-- git clone --depth 1 https://github.com/oe-alliance/3rdparty-plugins.git
-- cd 3rdparty-plugins
-- ../ts.sh
-- ../pli.sh
-- ls -1 | grep -v '_all' | xargs rm -f
-- mv -f *.ipk ../
-- cd ..
-- rm -rf 3rdparty-plugins
-- find . -name '*plugin-picons-*' -type f | xargs rm -f
+- ./get-alliance.sh
+- ./get-pli.sh
+- ./get-ts.sh
+- ./get-common.sh
+- find . -name '*.ipk' -size +98M | xargs rm -f
 - chmod 755 IPKFeedGenerator.jar
 - java -jar IPKFeedGenerator.jar
 - cd ..
