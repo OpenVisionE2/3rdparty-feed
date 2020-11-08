@@ -12,4 +12,3 @@ wget --wait=1 -i Packages-files
 mv -f *.ipk ../
 cd ..
 rm -rf pli
-ls

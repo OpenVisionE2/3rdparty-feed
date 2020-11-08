@@ -9,4 +9,3 @@ wget -c -nH -r -q -l0 -A ipk -np -nd --wait=1 --execute="robots = off" http://tu
 mv -f *.ipk ../
 cd ..
 rm -rf ts
-ls

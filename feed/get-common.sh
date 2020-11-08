@@ -4,4 +4,3 @@ rename 'y/A-Z/a-z/' *.ipk
 ls -1 | grep -v '_all' | xargs rm -f
 ls -vr *.ipk | awk -F- '$1 == name{system ("rm \""$0"\"")}{name=$1}'
 find . -name '*plugin-picons-*' -type f | xargs rm -f
-ls
