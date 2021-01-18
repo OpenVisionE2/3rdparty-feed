@@ -14,21 +14,6 @@ OE: transmission-2.92
 License: GPLv2
 
 
-Package: enigma2-plugin-extensions-tmbd
-Version: 8.4
-Recommends: python-shell, python-html, python-subprocess, python-xml, python-twisted-web, python-unixadmin, python-misc, python-lxml
-Section: base
-Architecture: all
-MD5Sum: b29fbe6e36fdeb340c31155458157b9f
-Size: 221496
-Filename: enigma2-plugin-extensions-tmbd_8.4_all.ipk
-Description: Search the internet bases themoviedb.org/kinopoisk.ru
-Maintainer: Dimitrij <Dima-73@inbox.lv>
-Priority: optional
-Homepage: https://github.com/Dima73/enigma2-plugin-extensions-tmbd
-OE: enigma2-plugin-extensions-tmbd
-
-
 Package: enigma2-plugin-extensions-theweather
 Version: 5.0r05
 Depends: python
@@ -388,6 +373,21 @@ Maintainer: Dima73 <Dima-73@inbox.lv>
 Priority: optional
 Homepage: openpli.org
 OE: enigma2
+
+
+Package: enigma2-plugin-extensions-tmbd
+Version: 8.6
+Recommends: python-shell, python-html, python-subprocess, python-xml, python-twisted-web, python-unixadmin, python-misc, python-lxml
+Section: base
+Architecture: all
+MD5Sum: 33eed338f4c4929d9b8af13393a0d30b
+Size: 278474
+Filename: enigma2-plugin-extensions-tmbd_8.6_all.ipk
+Description: Search the internet bases themoviedb.org/kinopoisk.ru
+Maintainer: Dimitrij <Dima-73@inbox.lv>
+Priority: optional
+Homepage: https://github.com/Dima73/enigma2-plugin-extensions-tmbd
+OE: enigma2-plugin-extensions-tmbd
 
 
 Package: enigma2-plugin-systemplugins-channelselectionnavigator
