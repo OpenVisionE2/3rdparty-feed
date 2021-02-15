@@ -202,6 +202,20 @@ OE: enigma2-plugins
 License: unknown
 
 
+Package: enigma2-plugin-extensions-translator
+Version: 2.01-release
+Section: misc
+Architecture: all
+MD5Sum: a143aae0b15a77e83d70769e25aaa2f1
+Size: 1803468
+Filename: enigma2-plugin-extensions-translator_2.01-release_all.ipk
+Description: EPG Translator
+Maintainer: Any
+Priority: optional
+Source: 
+Homepage: 
+
+
 Package: enigma2-plugin-extensions-xbmcaddons
 Version: 6.0_r0
 Section: extra
@@ -417,20 +431,6 @@ Priority: optional
 OE: enigma2
 
 
-Package: enigma2-plugin-extensions-translator
-Version: 1.4rc2-fhd-edition
-Section: misc
-Architecture: all
-MD5Sum: 31d876c9a07f15e024645650f4ef02d2
-Size: 1902574
-Filename: enigma2-plugin-extensions-translator_1.4rc2-fhd-edition_all.ipk
-Description: EPG YouTube Trailer & Translator by kashmir
-Maintainer: Kashmir
-Priority: optional
-Source: 
-Homepage: 
-
-
 Package: enigma2-plugin-extensions-glasssysutil
 Version: 5.37
 Section: base
@@ -443,20 +443,6 @@ Maintainer: Skinmastersfun
 Priority: optional
 Homepage: unknown
 OE: enigma2-plugin-glasssysutil
-
-
-Package: enigma2-plugin-extensions-webradiofs
-Version: 9.16
-Depends: python-sqlite3
-Section: extra
-Architecture: all
-MD5Sum: 31c67fb0ce40a99b24845766eafa4185
-Size: 480608
-Filename: enigma2-plugin-extensions-webradiofs_19.16_all.ipk
-Description: webradioFS
-Maintainer: shadowrider plugins@fs-plugins.de
-Priority: optional
-Homepage: www.fs-plugins.de
 
 
 Package: enigma2-plugin-extensions-weather_msn
@@ -648,6 +634,20 @@ Maintainer:
 Priority: optional
 
 
+Package: enigma2-plugin-extensions-webradiofs
+Version: 9.38
+Depends: python-sqlite3
+Section: extra
+Architecture: all
+MD5Sum: 24e850e176d6ba6a73d5528cb0413d4d
+Size: 481466
+Filename: enigma2-plugin-extensions-webradiofs_19.38_all.ipk
+Description: webradioFS
+Maintainer: shadowrider plugins@fs-plugins.de
+Priority: optional
+Homepage: www.fs-plugins.de
+
+
 Package: enigma2-plugin-extensions-tsvpn
 Version: 1.3-by-RAED
 Depends: openvpn, wget
@@ -700,21 +700,6 @@ Maintainer: RAED <rrrr53@hotmail.com>
 Priority: optional
 Homepage: www.ourdreambox.com (English Support) , www.tunisia-sat.com (Arabic Support)
 License: Proprietary
-
-
-Package: enigma2-plugin-extensions-camofs
-Version: 7.14
-Depends: python-imaging, python-subprocess,python-textutils,python-requests
-Section: extra
-Architecture: all
-MD5Sum: 3767af721e41e9ee93c3caa19aac384e
-Size: 281908
-Filename: enigma2-plugin-extensions-camofs_17.14_all.ipk
-Description: camoFS
-Maintainer: shadowrider plugins@fs-plugins.de
-Priority: optional
-Homepage: www.fs-plugins.de
-OE: all
 
 
 Package: enigma2-plugin-extensions-dvrproviderplayer
@@ -1344,6 +1329,21 @@ Homepage: none
 OE: MediaInfo
 
 
+Package: enigma2-plugin-extensions-camofs
+Version: 7.35
+Depends: python-imaging, python-subprocess
+Section: extra
+Architecture: all
+MD5Sum: d15c85582c9115c5e4bd5f9f4a8841e5
+Size: 394706
+Filename: enigma2-plugin-extensions-camofs_17.35_all.ipk
+Description: camoFS
+Maintainer: shadowrider plugins@fs-plugins.de
+Priority: optional
+Homepage: www.fs-plugins.de
+OE: all
+
+
 Package: enigma2-plugin-extensions-mp3browser
 Version: 2.0rc1
 Depends: python-mutagen
@@ -1620,6 +1620,21 @@ Homepage: www.openpli.org
 OE: enigma2-plugin-skins
 
 
+Package: enigma2-plugin-extensions-xcplugin
+Version: 1.5
+Section: extra
+Architecture: all
+MD5Sum: 49485a60afae9e91ea2275d3e4854fb9
+Size: 1243984
+Filename: enigma2-plugin-extensions-xcplugin-forever_1.5_all.ipk
+Description: plugin, for the free streaming.
+Maintainer: Lululla <ekekaz@gmail.com>
+Priority: optional
+Source: none
+Homepage: 
+OE: OE2.0
+
+
 Package: enigma2-plugin-extensions-tspanel
 Version: 8.0
 Depends: 
@@ -1633,22 +1648,6 @@ Maintainer: mFaraj <mfaraj57@gmail.com>
 Priority: optional
 Source: 
 Homepage: http://www.tunisia-sat.com/vb/forumdisplay.php?f=14
-
-
-Package: enigma2-plugin-extensions-xcplugin-forever
-Version: 1.4
-Section: base
-Architecture: all
-MD5Sum: 93f2363937188da86e53af1a2b1ba50f
-Size: 1246114
-Filename: enigma2-plugin-extensions-xcplugin-forever_1.4_all.ipk
-Description: XCplugin-Forever Version by Lululla & MMark
-Maintainer: lululla
-Priority: optional
-Source: /
-Homepage: linuxsat-support forum
-OE: 2.0 - 2.2 - 2.5 -2.6
-License: *
 
 
 Package: enigma2-plugin-extensions-noip
