@@ -259,20 +259,6 @@ Homepage: www.fs-plugins.de
 OE: all
 
 
-Package: enigma2-plugin-extensions-mytube
-Version: 4.3.2+git6+8f5bbdcd7d-r0.0-RAED
-Depends: gstreamer1.0-plugins-good-flv, python-textutils, python-json, enigma2-plugin-systemplugins-tubelib, python-twisted-web, python-youtube-dl, python-oauth2client
-Section: base
-Architecture: all
-MD5Sum: af53ab073c84e2eed629387796bf4b8e
-Size: 397002
-Filename: enigma2-plugin-extensions-mytube_4.3.2+git6+8f5bbdcd7d-r0.0-raed_all.ipk
-Description: MyTube Player for direct playback of Youtube movies
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-Priority: optional
-OE: enigma2-plugins
-
-
 Package: enigma2-plugin-extensions-filesearchfs
 Version: .0
 Section: extra
@@ -345,22 +331,6 @@ Homepage: none
 OE: enigma2-plugin-extensions-customsubservices
 
 
-Package: enigma2-plugin-drivers-dvb-usb-opticombo
-Version: 2.0-r6
-Recommends: kernel-module-si2168, kernel-module-dvbsky-m88rs6000, firmware-dvb-usb-s660, firmware-dvb-fe-ds3000, kernel-module-dvb-usb-dvbsky, kernel-module-dvb-usb-v2, kernel-module-dvbsky-m88ds3103, firmware-dvb-fe-si2168, kernel-module-si2157, kernel-module-sit2fe, firmware-dvb-fe-ds3xxx
-Section: base
-Architecture: all
-MD5Sum: c4cb213c79a92d240ebc25ae94f1e407
-Size: 748
-Filename: enigma2-plugin-drivers-dvb-usb-opticombo_2.0-r6_all.ipk
-Description: OPTI-Combo DVB-T2/C USB Stick
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-Priority: optional
-Source: None
-OE: enigma2-plugin-drivers-dvb-usb-opticombo
-License: GPLv2+
-
-
 Package: enigma2-plugin-extensions-flashexpander_pli
 Version: 0.1
 Section: base
@@ -375,21 +345,6 @@ Homepage: openpli.org
 OE: enigma2
 
 
-Package: enigma2-plugin-extensions-tmbd
-Version: 8.6
-Recommends: python-shell, python-html, python-subprocess, python-xml, python-twisted-web, python-unixadmin, python-misc, python-lxml
-Section: base
-Architecture: all
-MD5Sum: 33eed338f4c4929d9b8af13393a0d30b
-Size: 278474
-Filename: enigma2-plugin-extensions-tmbd_8.6_all.ipk
-Description: Search the internet bases themoviedb.org/kinopoisk.ru
-Maintainer: Dimitrij <Dima-73@inbox.lv>
-Priority: optional
-Homepage: https://github.com/Dima73/enigma2-plugin-extensions-tmbd
-OE: enigma2-plugin-extensions-tmbd
-
-
 Package: enigma2-plugin-systemplugins-channelselectionnavigator
 Version: 1.5
 Section: base
@@ -402,19 +357,6 @@ Maintainer:
 Priority: optional
 OE: enigma2
 License: unknown
-
-
-Package: enigma2-plugin-extensions-vcs
-Version: 2.9
-Section: base
-Architecture: all
-MD5Sum: 732ea4a7eae8ab339555cea3ef72eee5
-Size: 21520
-Filename: enigma2-plugin-extensions-vcs_2.9_all.ipk
-Description: video clipmodes switcher for enigma2
-Maintainer: vlamo <vlamodev@gmail.com>
-Priority: optional
-OE: enigma2
 
 
 Package: enigma2-plugin-extensions-glasssysutil
@@ -545,38 +487,6 @@ Priority: optional
 Source: file://usr
 Homepage: http://www.world-of-satellite.com
 OE: 1.6
-
-
-Package: enigma2-plugin-extensions-youtube
-Version: 1+git524+d6a7070-r0
-Depends: python-codecs, python-core, python-json, python-netclient, python-pyopenssl, python-twisted-web, python-zlib
-Section: multimedia
-Architecture: all
-MD5Sum: 5ae90a3304ece909b3afdafb39713326
-Size: 120692
-Filename: enigma2-plugin-extensions-youtube_1+git524+d6a7070-r0_all.ipk
-Description: Enigma2 plugin to manage your youtube account and watch videos
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-Priority: optional
-Source: enigma2-plugin-extensions-youtube.bb
-Homepage: https://github.com/Taapat/enigma2-plugin-youtube
-OE: enigma2-plugin-extensions-youtube
-License: PD
-
-
-Package: enigma2-plugin-extensions-subssupport
-Version: 1.5.4_20151105
-Recommends: python-xmlrpc, unrar, python-compression, python-codecs, python-zlib, python-difflib
-Section: extra
-Architecture: all
-MD5Sum: 668414af9fc05813013745aa35b52da4
-Size: 480160
-Filename: enigma2-plugin-extensions-subssupport_1.5.4_20151105_all.ipk
-Description: Enigma2 subtitles support library  1.5.4_20151105"
-Maintainer: mxfitsat@gmail.com
-Priority: optional
-Source: https://code.google.com/p/mediaplayer2-for-sh4/
-Homepage: https://code.google.com/p/mediaplayer2-for-sh4/
 
 
 Package: enigma2-plugin-skins-army-moodblue-mod-pli
@@ -805,23 +715,6 @@ Priority: optional
 Homepage: openpli
 OE: 2.0
 License: unknown
-
-
-Package: enigma2-plugin-extensions-enhancedmoviecenter
-Version: 4.0+git1577+20181110
-Depends: python-json, python-html, python-requests, python-mutagen
-Section: extra
-Architecture: all
-MD5Sum: 6c1fa3ec79ab47377b449b2125c24ffd
-Size: 1033488
-Filename: enigma2-plugin-extensions-enhancedmoviecenter_4.0+git1577+20181110_all.ipk
-Description: EMC is an enhanced movielist replacement for Linux based receivers
-Maintainer: betonme, Swiss-MAD
-Priority: optional
-Source: http://github.com/betonme/e2openplugin-EnhancedMovieCenter.git
-Homepage: https://github.com/betonme/e2openplugin-EnhancedMovieCenter/
-OE: enigma2-plugin-extensions-enhancedmoviecenter
-License: open
 
 
 Package: enigma2-plugin-extensions-easymedia
@@ -1120,21 +1013,6 @@ Description: SkyRecorder - a plugin to add automatically timers for new SKY broa
 Maintainer: einfall greysky matzze2000 lexy Hilfsbereit murxer
 Priority: optional
 Source: 
-
-
-Package: DreamPlex
-Version: 1.07
-Section: extra
-Architecture: all
-MD5Sum: 042621fc71c7c023fc5305107d187c6a
-Size: 1485098
-Filename: enigma2-plugin-extensions-dreamplex_1.07_all.ipk
-Description: Plex Client for Enigma2
-Maintainer: DonDavici <dondavici@gmail.com>
-Priority: optional
-Source: http://https://github.com/DonDavici/DreamPlex
-Homepage: http://https://github.com/DonDavici/DreamPlex
-OE: dreamplex-1.07
 
 
 Package: enigma2-plugin-extensions-sortplaylist
@@ -1646,23 +1524,6 @@ Description: enigma2-plugin-extensions-noip
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Priority: optional
 OE: enigma2-plugin-extensions-noip
-
-
-Package: enigma2-plugin-extensions-tstube
-Version: 1.2
-Depends: 
-Section: extra
-Architecture: all
-MD5Sum: f78b00b1ac3dc68e083372fbadbeabfa
-Size: 906106
-Filename: enigma2-plugin-extensions-tstube_1.2_all.ipk
-Description: streaming of youtube media
-Maintainer: mfaraj57 <@tunisia-sat.com>
-Priority: optional
-Source: file://TSTube
-Homepage: http://www.tunisia-sat.com
-OE: enigma2-plugin-extensions-tstube
-License: CLOSED
 
 
 Package: enigma2-plugin-extensions-alajre-quran
