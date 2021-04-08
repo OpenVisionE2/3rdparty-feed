@@ -2,6 +2,14 @@
 
 rename 'y/A-Z/a-z/' *.ipk
 rm -f *overlayhd*
+rm -f *drivers*
+rm -f *youtube*
+rm -f *enigma2-plugin-extensions-vcs*
+rm -f *tmbd*
+rm -f *subssupport*
+rm -f *mytube*
+rm -f *enhancedmoviecenter*
+rm -f *dreamplex*
 find . -name '*picons*' -type f | xargs rm -f
 mkdir -p files
 mv -f *.ipk files/
