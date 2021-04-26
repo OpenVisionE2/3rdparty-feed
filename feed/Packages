@@ -390,12 +390,12 @@ OE:
 
 
 Package: enigma2-plugin-extensions-netspeedtest
-Version: 1.0rc2
+Version: 2.1.3
 Section: extra
 Architecture: all
-MD5Sum: 5248c7b9b699323a923f8c4e73a2745e
-Size: 277234
-Filename: enigma2-plugin-extensions-netspeedtest_1.0rc2_all.ipk
+MD5Sum: 4cb8e3d34eb357e951fc9ee657bbdd0b
+Size: 277270
+Filename: enigma2-plugin-extensions-netspeedtest_2.1.3_all.ipk
 Description: Net speed Test
 Maintainer: mfaraj57 <@tunisia-sat.com>
 Priority: optional
@@ -807,23 +807,6 @@ Maintainer: ims <ims21@users.sourceforge.net>
 Priority: optional
 
 
-Package: enigma2-plugin-extensions-serienrecorder
-Version: 4.1.5
-Depends: enigma2, python-sqlite3, python-json, python-textutils, openssl, python-pyopenssl, python-zlib, python-compression, python-xmlrpc, python-difflib, python-numbers, python-subprocess, python-email, python-html
-Section: extra
-Architecture: all
-MD5Sum: b1bfd8200e668b7d116c5b05a0597ec6
-Size: 457562
-Filename: enigma2-plugin-extensions-serienrecorder_4.1.5_all.ipk
-Description: Erstellt automatisiert Timer fuer deine Lieblings-Serien - nie mehr eine Folge verpassen!
-Maintainer: einfall & MacDisein & w22754 & egn
-Priority: optional
-Source: https://github.com/einfall/serienrecorder
-Homepage: http://www.serienserver.de
-OE: linux-oe2.0
-License: GPL
-
-
 Package: enigma2-plugin-extensions-kodilite
 Version: 2.0_r0
 Depends: python-json, python-pyopenssl, python-compression, python-html, python-pycrypto, python-textutils, python-email, python-sqlite3, python-requests
@@ -999,6 +982,23 @@ Priority: optional
 Homepage: http://www.xtrend-united.de
 OE: enigma2-plugin-systemplugins-swapmanager
 License: GNU GPLv2
+
+
+Package: enigma2-plugin-extensions-serienrecorder
+Version: 4.3.0
+Depends: enigma2, python-sqlite3, python-json, python-textutils, openssl, python-pyopenssl, python-zlib, python-compression, python-xmlrpc, python-difflib, python-numbers, python-subprocess, python-email, python-html
+Section: extra
+Architecture: all
+MD5Sum: 4904c45c594f4710328390f503a87925
+Size: 692866
+Filename: enigma2-plugin-extensions-serienrecorder_4.3.0_all.ipk
+Description: Erstellt automatisiert Timer fuer deine Lieblings-Serien - nie mehr eine Folge verpassen!
+Maintainer: einfall & w22754 & egn & MacDisein
+Priority: optional
+Source: https://github.com/einfall/serienrecorder
+Homepage: http://www.serienserver.de
+OE: linux-oe2.0
+License: GPL
 
 
 Package: enigma2-plugin-extensions-skyrecorder
