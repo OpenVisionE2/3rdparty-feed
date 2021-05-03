@@ -614,20 +614,6 @@ Homepage: www.fs-plugins.de
 OE: all
 
 
-Package: enigma2-plugin-extensions-tectimetv
-Version: .1
-Section: extra
-Architecture: all
-MD5Sum: 0d18ee2b6a6f1553ac0920937a154e6a
-Size: 64648
-Filename: enigma2-plugin-extensions-tectimetv_3.1_all.ipk
-Description: TecTime TV
-Maintainer: shadowrider
-Priority: optional
-Source: 
-Homepage: www.fs-plugins.de
-
-
 Package: enigma2-plugin-skins-black-blue-hd
 Version: 1.2_r2
 Section: skins
@@ -1089,19 +1075,6 @@ Priority: optional
 Source: 
 
 
-Package: enigma2-plugin-extensions-tsvpn
-Version: 1.4-by-RAED
-Depends: openvpn, wget
-Section: base
-Architecture: all
-MD5Sum: d078db646987ac30498103381cf6dedb
-Size: 25672
-Filename: enigma2-plugin-extensions-tsvpn_1.4-by-raed_all.ipk
-Description: OpenVpn plugin to download and Active/start/stop vpn
-Maintainer: RAED (rrrr53@hotmail.com)
-Priority: optional
-
-
 Package: enigma2-plugin-extensions-atmolightd
 Version: 0.6-r0
 Depends: 
@@ -1162,22 +1135,6 @@ Homepage:
 OE: enigma2-plugin-extensions-blackout-blind_1.3_all
 
 
-Package: enigma2-plugin-extensions-mediainfo
-Version: 3.0.7
-Depends: python-requests (>= 2.0.0)
-Section: extra
-Architecture: all
-MD5Sum: 7f2658728d20cf313e887f939fc9c241
-Size: 10740
-Filename: enigma2-plugin-extensions-mediainfo_3.0.7_all.ipk
-Description: MediaInfo
-Maintainer: MP
-Priority: optional
-Source: GIT
-Homepage: none
-OE: MediaInfo
-
-
 Package: enigma2-plugin-extensions-camofs
 Version: 7.35
 Depends: python-imaging, python-subprocess
@@ -1191,6 +1148,37 @@ Maintainer: shadowrider plugins@fs-plugins.de
 Priority: optional
 Homepage: www.fs-plugins.de
 OE: all
+
+
+Package: enigma2-plugin-extensions-xcplugin-forever
+Version: 1.6
+Section: extra
+Architecture: all
+MD5Sum: 0d66c7fab41e35b99d8190701b9187e2
+Size: 932822
+Filename: enigma2-plugin-extensions-xcplugin-forever_1.6_all.ipk
+Description: plugin, for the free streaming.
+Maintainer: Lululla <ekekaz@gmail.com>
+Priority: optional
+Source: none
+Homepage: 
+OE: OE2.0
+
+
+Package: enigma2-plugin-extensions-mediainfo
+Version: 3.0.8
+Depends: python-requests (>= 2.0.0)
+Section: extra
+Architecture: all
+MD5Sum: 72003e0bcbbe20b378f21fdf2778a607
+Size: 10816
+Filename: enigma2-plugin-extensions-mediainfo_3.0.8_all.ipk
+Description: MediaInfo
+Maintainer: MP
+Priority: optional
+Source: GIT
+Homepage: none
+OE: MediaInfo
 
 
 Package: enigma2-plugin-extensions-mp3browser
@@ -1483,21 +1471,6 @@ Homepage: www.openpli.org
 OE: enigma2-plugin-skins
 
 
-Package: enigma2-plugin-extensions-xcplugin
-Version: 1.5
-Section: extra
-Architecture: all
-MD5Sum: 49485a60afae9e91ea2275d3e4854fb9
-Size: 1243984
-Filename: enigma2-plugin-extensions-xcplugin-forever_1.5_all.ipk
-Description: plugin, for the free streaming.
-Maintainer: Lululla <ekekaz@gmail.com>
-Priority: optional
-Source: none
-Homepage: 
-OE: OE2.0
-
-
 Package: enigma2-plugin-extensions-tspanel
 Version: 8.0
 Depends: 
@@ -1524,6 +1497,19 @@ Description: enigma2-plugin-extensions-noip
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Priority: optional
 OE: enigma2-plugin-extensions-noip
+
+
+Package: enigma2-plugin-extensions-tsvpn
+Version: 1.5-by-RAED
+Depends: openvpn, wget
+Section: base
+Architecture: all
+MD5Sum: 8c87ee09730f09d8d46048c7634afcf3
+Size: 37146
+Filename: enigma2-plugin-extensions-tsvpn_1.5-by-raed_all.ipk
+Description: OpenVpn plugin to download and Active/start/stop vpn
+Maintainer: RAED (rrrr53@hotmail.com)
+Priority: optional
 
 
 Package: enigma2-plugin-extensions-alajre-quran
