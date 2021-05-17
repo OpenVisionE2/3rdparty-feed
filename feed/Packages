@@ -230,21 +230,6 @@ Homepage: http://cooltvguide.com
 OE: cooltvguide-Coolman_V7.3.0
 
 
-Package: enigma2-plugin-extensions-screengrabber
-Version: 2.5
-Depends: 
-Section: extra
-Architecture: all
-MD5Sum: 240e2a18c52f62c69af676438114a3a2
-Size: 112490
-Filename: enigma2-plugin-extensions-screengrabber_2.5_all.ipk
-Description: take screenshot of enigma2 box screen
-Maintainer: mFaraj <mfaraj57@gmail.com>
-Priority: optional
-Source: ./
-Homepage: tunisia-sat.com,dreamoem.com
-
-
 Package: enigma2-plugin-extensions-timfs
 Version: .32
 Section: Utilities
@@ -1469,6 +1454,20 @@ Maintainer: Takun345
 Priority: optional
 Homepage: www.openpli.org
 OE: enigma2-plugin-skins
+
+
+Package: enigma2-plugin-extensions-screengrabber
+Version: 2.6
+Section: extra
+Architecture: all
+MD5Sum: 560fa82f0aefe0d3b3431bd64d824917
+Size: 113484
+Filename: enigma2-plugin-extensions-screengrabber_2.6_all.ipk
+Description: take screenshot of enigma2 box screen for python 3
+Maintainer: mFaraj <mfaraj57@gmail.com>
+Priority: optional
+Source: ./
+Homepage: tunisia-sat.com,dreamoem.com
 
 
 Package: enigma2-plugin-extensions-tspanel
