@@ -530,20 +530,6 @@ Maintainer:
 Priority: optional
 
 
-Package: enigma2-plugin-extensions-webradiofs
-Version: 9.38
-Depends: python-sqlite3
-Section: extra
-Architecture: all
-MD5Sum: 24e850e176d6ba6a73d5528cb0413d4d
-Size: 481466
-Filename: enigma2-plugin-extensions-webradiofs_19.38_all.ipk
-Description: webradioFS
-Maintainer: shadowrider plugins@fs-plugins.de
-Priority: optional
-Homepage: www.fs-plugins.de
-
-
 Package: enigma2-plugin-extensions-audiopip
 Version: 0.3
 Section: extra
@@ -910,6 +896,23 @@ Priority: optional
 Homepage: http://www.kashmir-plugins.de
 
 
+Package: enigma2-plugin-extensions-serienrecorder
+Version: 4.4.0
+Depends: enigma2, python-sqlite3, python-json, python-textutils, openssl, python-pyopenssl, python-zlib, python-compression, python-xmlrpc, python-difflib, python-numbers, python-subprocess, python-email, python-html, python-requests
+Section: extra
+Architecture: all
+MD5Sum: 0ea682c5536d653fbb5c4cfed93b1204
+Size: 702466
+Filename: enigma2-plugin-extensions-serienrecorder_4.4.0_all.ipk
+Description: Erstellt automatisiert Timer fuer deine Lieblings-Serien - nie mehr eine Folge verpassen!
+Maintainer: einfall & w22754 & egn & MacDisein
+Priority: optional
+Source: https://github.com/einfall/serienrecorder
+Homepage: http://www.serienserver.de
+OE: linux-oe2.0
+License: GPL
+
+
 Package: enigma2-plugin-extensions-fontmagnifier
 Version: 0.6.1
 Depends: enigma2
@@ -953,23 +956,6 @@ Priority: optional
 Homepage: http://www.xtrend-united.de
 OE: enigma2-plugin-systemplugins-swapmanager
 License: GNU GPLv2
-
-
-Package: enigma2-plugin-extensions-serienrecorder
-Version: 4.3.0
-Depends: enigma2, python-sqlite3, python-json, python-textutils, openssl, python-pyopenssl, python-zlib, python-compression, python-xmlrpc, python-difflib, python-numbers, python-subprocess, python-email, python-html
-Section: extra
-Architecture: all
-MD5Sum: 4904c45c594f4710328390f503a87925
-Size: 692866
-Filename: enigma2-plugin-extensions-serienrecorder_4.3.0_all.ipk
-Description: Erstellt automatisiert Timer fuer deine Lieblings-Serien - nie mehr eine Folge verpassen!
-Maintainer: einfall & w22754 & egn & MacDisein
-Priority: optional
-Source: https://github.com/einfall/serienrecorder
-Homepage: http://www.serienserver.de
-OE: linux-oe2.0
-License: GPL
 
 
 Package: enigma2-plugin-extensions-skyrecorder
@@ -1103,6 +1089,20 @@ Maintainer: mFaraj <mfaraj57@gmail.com>
 Priority: optional
 Source: Tunisiasat
 Homepage: Tunisiasat
+
+
+Package: enigma2-plugin-extensions-webradiofs
+Version: 9.51
+Depends: python-sqlite3
+Section: extra
+Architecture: all
+MD5Sum: c7e8bccb6a6cf5dc15551e061b6489d2
+Size: 481730
+Filename: enigma2-plugin-extensions-webradiofs_19.51_all.ipk
+Description: webradioFS
+Maintainer: shadowrider plugins@fs-plugins.de
+Priority: optional
+Homepage: www.fs-plugins.de
 
 
 Package: enigma2-plugin-extensions-blackout-blind_1.3_all
