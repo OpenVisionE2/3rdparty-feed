@@ -1270,20 +1270,6 @@ Homepage: http://dream.altmaster.net/
 OE: enigma2
 
 
-Package: streamlinksrv
-Version: 1.6.0
-Section: devel/python
-Architecture: all
-MD5Sum: 470431eedc3d6aefe052806d29a76ef0
-Size: 79402
-Filename: streamlinksrv_1.6.0_all.ipk
-Description: Streamlinksrv 1.6.0
-Maintainer: Billy2011
-Priority: optional
-OE: streamlinksrv
-License: GPLv2+
-
-
 Package: enigma2-plugin-skins-blackalu
 Version: Coolman_V5.0
 Section: extra
