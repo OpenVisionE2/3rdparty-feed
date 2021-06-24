@@ -1,5 +1,6 @@
 #!/bin/sh
 
+cd feed
 mkdir -p pli
 cd pli
 wget http://downloads.openpli.org/feeds/openpli-8-release/3rd-party/Packages.gz

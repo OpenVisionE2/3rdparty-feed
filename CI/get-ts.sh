@@ -1,5 +1,6 @@
 #!/bin/sh
 
+cd feed
 mkdir -p ts
 cd ts
 mkdir -p plugins
