@@ -571,20 +571,6 @@ OE: enigma2-plugins
 License: unknown
 
 
-Package: enigma2-plugin-extensions-skyrecorder
-Version: 1.9.7
-Depends: python-json, python-html, python-sqlite3, libsqlite3-0
-Section: misc
-Architecture: all
-MD5Sum: bf8d57930c427ffcefe2103fe52a5ed6
-Size: 426344
-Filename: enigma2-plugin-extensions-skyrecorder_1.9.7_all.ipk
-Description: SkyRecorder - a plugin to add automatically timers for new SKY broadcasts - using API to download coverfiles from TMDB
-Maintainer: einfall greysky matzze2000 lexy Hilfsbereit murxer
-Priority: optional
-Source: 
-
-
 Package: enigma2-plugin-extensions-piconmanager
 Version: 2.2-20150329-r0
 Depends: python-core
@@ -669,6 +655,19 @@ Description: Screensaver for Enigma2
 Maintainer: gutemine <gutemine@dummy.com>
 Priority: optional
 OE: screensaver-5.7
+
+
+Package: enigma2-plugin-extensions-tsvpn
+Version: 1.6-by-RAED
+Depends: openvpn, wget, curl
+Section: base
+Architecture: all
+MD5Sum: 60eab6ff2f8d8048fca8f5e8784aabf0
+Size: 37918
+Filename: enigma2-plugin-extensions-tsvpn_1.6-by-raed_all.ipk
+Description: OpenVpn plugin to download and Active/start/stop vpn
+Maintainer: RAED (rrrr53@hotmail.com)
+Priority: optional
 
 
 Package: enigma2-plugin-skins-army-moodblue-mod-pli
@@ -995,19 +994,6 @@ Description: VuPlus Support Forum Plugin
 Maintainer: kashmir
 Priority: optional
 Homepage: http://www.kashmir-plugins.de
-
-
-Package: enigma2-plugin-extensions-tsvpn
-Version: 1.5-by-RAED
-Depends: openvpn, wget
-Section: base
-Architecture: all
-MD5Sum: 8c87ee09730f09d8d46048c7634afcf3
-Size: 37146
-Filename: enigma2-plugin-extensions-tsvpn_1.5-by-raed_all.ipk
-Description: OpenVpn plugin to download and Active/start/stop vpn
-Maintainer: RAED (rrrr53@hotmail.com)
-Priority: optional
 
 
 Package: enigma2-plugin-extensions-netspeedtest
@@ -1463,6 +1449,22 @@ Maintainer: mfaraj
 Priority: optional
 Source: 
 Homepage: https://www.tunisia-sat.com
+
+
+Package: enigma2-plugin-extensions-skyrecorder
+Version: 1.9.9
+Depends: libsqlite3-0, python-sqlite3, python-html, python-json
+Conflicts: enigma2-plugin-extensions-skyanytime
+Replaces: enigma2-plugin-extensions-skyanytime
+Section: misc
+Architecture: all
+MD5Sum: 4bbc08de0d7e3698be10525329159a9c
+Size: 437274
+Filename: enigma2-plugin-extensions-skyrecorder_1.9.9_all.ipk
+Description: SkyRecorder - a plugin to add automatically timers for new SKY broadcasts - using API to download coverfiles from TMDB - change to FHD Skins
+Maintainer: einfall greysky matzze2000 dre Hilfsbereit murxer Fitz'
+Priority: optional
+Source: http://www.vuplus-support.org/wbb3/index.php?page=Thread&threadID=94151
 
 
 Package: enigma2-plugin-extensions-mediainfo
