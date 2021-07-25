@@ -657,19 +657,6 @@ Priority: optional
 OE: screensaver-5.7
 
 
-Package: enigma2-plugin-extensions-tsvpn
-Version: 1.6-by-RAED
-Depends: openvpn, wget, curl
-Section: base
-Architecture: all
-MD5Sum: 60eab6ff2f8d8048fca8f5e8784aabf0
-Size: 37918
-Filename: enigma2-plugin-extensions-tsvpn_1.6-by-raed_all.ipk
-Description: OpenVpn plugin to download and Active/start/stop vpn
-Maintainer: RAED (rrrr53@hotmail.com)
-Priority: optional
-
-
 Package: enigma2-plugin-skins-army-moodblue-mod-pli
 Version: 0.9
 Depends: enigma2
@@ -837,6 +824,19 @@ Maintainer: shadowrider plugins@fs-plugins.de
 Priority: optional
 Source: 
 Homepage: www.fs-plugins.de
+
+
+Package: enigma2-plugin-extensions-tsvpn
+Version: 1.7-by-RAED
+Depends: openvpn, wget, curl
+Section: base
+Architecture: all
+MD5Sum: 7f80f8716211d8cbcc7dc87fa3dc72b9
+Size: 172622
+Filename: enigma2-plugin-extensions-tsvpn_1.7-by-raed_all.ipk
+Description: OpenVpn plugin to download and Active/start/stop vpn
+Maintainer: RAED (rrrr53@hotmail.com)
+Priority: optional
 
 
 Package: almawsoaa-plugin
