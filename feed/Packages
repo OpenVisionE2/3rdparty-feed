@@ -355,22 +355,6 @@ Maintainer: Dimitrij <dima-73@inbox.lv>
 Priority: optional
 
 
-Package: enigma2-plugin-extensions-apcupsd-tools
-Version: 1.3
-Depends: libwrap0, libusb-0.1-4
-Section: base
-Architecture: all
-MD5Sum: 8483689726cf13ebc5fafe7c00c71dab
-Size: 538954
-Filename: enigma2-plugin-extensions-apcupsd-tools_1.3_all.ipk
-Description: UPS power management for APC products
-Maintainer: Dimitrij <Dima-73@inbox.lv>
-Priority: optional
-Homepage: openpli
-OE: 2.0
-License: unknown
-
-
 Package: bhweather
 Version: V0.8
 Section: base
