@@ -1012,6 +1012,22 @@ Priority: optional
 Homepage: http://www.kashmir-plugins.de
 
 
+Package: enigma2-plugin-extensions-apcupsd-tools
+Version: 1.4
+Depends: libwrap0, libusb-0.1-4
+Section: base
+Architecture: all
+MD5Sum: af2c4dd4883df63808b833cef4f744ff
+Size: 538774
+Filename: enigma2-plugin-extensions-apcupsd-tools_1.4_all.ipk
+Description: UPS power management for APC products
+Maintainer: Dimitrij <Dima-73@inbox.lv>
+Priority: optional
+Homepage: openpli
+OE: 2.0
+License: unknown
+
+
 Package: enigma2-plugin-extensions-ipchecker
 Version: 003
 Section: Extensions
