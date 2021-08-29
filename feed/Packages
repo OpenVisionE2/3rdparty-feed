@@ -426,22 +426,6 @@ OE: enigma2-plugin-extensions-ehue
 License: GPL
 
 
-Package: enigma2-plugin-extensions-skyrecorder
-Version: 1.9.9
-Depends: libsqlite3-0, python-sqlite3, python-html, python-json
-Conflicts: enigma2-plugin-extensions-skyanytime
-Replaces: enigma2-plugin-extensions-skyanytime
-Section: misc
-Architecture: all
-MD5Sum: 4bbc08de0d7e3698be10525329159a9c
-Size: 437274
-Filename: enigma2-plugin-extensions-skyrecorder_1.9.9_all.ipk
-Description: SkyRecorder - a plugin to add automatically timers for new SKY broadcasts - using API to download coverfiles from TMDB - change to FHD Skins
-Maintainer: einfall greysky matzze2000 dre Hilfsbereit murxer Fitz'
-Priority: optional
-Source: http://www.vuplus-support.org/wbb3/index.php?page=Thread&threadID=94151
-
-
 Package: almawsoaa-plugin
 Version: 1.3
 Section: misc
@@ -1287,6 +1271,22 @@ Description: CyrusSettings
 Maintainer: by m43c0 & mmark
 Priority: optional
 Source: 
+
+
+Package: enigma2-plugin-extensions-skyrecorder
+Version: 2.0.3a-py2
+Depends: libsqlite3-0, python-sqlite3, python-html, python-json, python-requests
+Conflicts: enigma2-plugin-extensions-skyanytime
+Replaces: enigma2-plugin-extensions-skyanytime
+Section: misc
+Architecture: all
+MD5Sum: b06762ea884785aa36f94bd6af4112bd
+Size: 385290
+Filename: enigma2-plugin-extensions-skyrecorder_2.0.3a-py2_all.ipk
+Description: SkyRecorder - a plugin to add automatically timers for new SKY broadcasts - using API to download coverfiles from TMDB - change to FHD Skins
+Maintainer: einfall greysky matzze2000 dre Hilfsbereit murxer Fitz'
+Priority: optional
+Homepage: http://www.vuplus-support.org/wbb3/index.php?page=Thread&threadID=94151
 
 
 Package: enigma2-plugin-extensions-serienrecorder
