@@ -400,6 +400,22 @@ Homepage: http://openpli.org/
 OE: 2.0
 
 
+Package: enigma2-plugin-extensions-cccaminfo
+Version: 1.5Z-r0
+Section: base
+Architecture: all
+MD5Sum: 0035b971e37649dd2188e58768680f8b
+Size: 88158
+Filename: enigma2-plugin-extensions-cccaminfo_1.5z-r0_all.ipk
+Description: Enigma2 Plugin: cccaminfo GUI that allows you to check the CCcam status
+Maintainer: AliAbdul, Gruffy, Hutten, Nemesis, WeeGull
+Priority: optional
+Source: *
+Homepage: *
+OE: 2.0 /2.5/ 2.6
+License: *
+
+
 Package: enigma2-plugin-systemplugins-swapmanager
 Version: 1.0-r3
 Depends: python-shell
