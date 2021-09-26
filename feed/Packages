@@ -82,21 +82,6 @@ OE: enigma2-plugins
 License: CC_BY-NC-SA_3.0
 
 
-Package: enigma2-plugin-extensions-xcplugin-forever
-Version: 1.6
-Section: extra
-Architecture: all
-MD5Sum: 0d66c7fab41e35b99d8190701b9187e2
-Size: 932822
-Filename: enigma2-plugin-extensions-xcplugin-forever_1.6_all.ipk
-Description: plugin, for the free streaming.
-Maintainer: Lululla <ekekaz@gmail.com>
-Priority: optional
-Source: none
-Homepage: 
-OE: OE2.0
-
-
 Package: enigma2-plugin-extensions-timfs
 Version: .32
 Section: Utilities
@@ -151,6 +136,20 @@ Description: Albatros
 Maintainer: testi
 Priority: optional
 Source: 
+
+
+Package: enigma2-plugin-extensions-ts-sateditor
+Version: 2.7
+Recommends: curl
+Section: extra
+Architecture: all
+MD5Sum: 22acca4d09cce9810dc598c752b20304
+Size: 26196
+Filename: enigma2-plugin-extensions-ts-sateditor_2.7_all.ipk
+Description: manage satellites/transponders for user satellites.xml
+Maintainer: Dima73 <Dima-73@inbox.lv> / mFaraj <mfaraj57@gmail.com>
+Priority: optional
+Homepage: www.tunisia-sat.com / openpli.org
 
 
 Package: enigma2-plugin-extensions-transmission
@@ -398,22 +397,6 @@ Priority: optional
 Source: http://openpli.org/
 Homepage: http://openpli.org/
 OE: 2.0
-
-
-Package: enigma2-plugin-extensions-cccaminfo
-Version: 1.5Z-r0
-Section: base
-Architecture: all
-MD5Sum: 0035b971e37649dd2188e58768680f8b
-Size: 88158
-Filename: enigma2-plugin-extensions-cccaminfo_1.5z-r0_all.ipk
-Description: Enigma2 Plugin: cccaminfo GUI that allows you to check the CCcam status
-Maintainer: AliAbdul, Gruffy, Hutten, Nemesis, WeeGull
-Priority: optional
-Source: *
-Homepage: *
-OE: 2.0 /2.5/ 2.6
-License: *
 
 
 Package: enigma2-plugin-systemplugins-swapmanager
@@ -1104,6 +1087,20 @@ Homepage: none
 OE: enigma2-plugin-extensions-customsubservices
 
 
+Package: enigma2-plugin-systemplugins-devicemanager
+Version: 1.2
+Recommends: e2fsprogs-e2fsck, e2fsprogs-mke2fs, libblkid1, ntfsprogs, hddtemp, dosfstools, e2fsprogs, util-linux-sfdisk, exfat-fuse, exfat-utils
+Section: base
+Architecture: all
+MD5Sum: b0f2e029a9c73fa15e3a306147ee0866
+Size: 151428
+Filename: enigma2-plugin-systemplugins-devicemanager_1.2_all.ipk
+Description: manager for storage devices (format/change partitions and type/fast & fixed mount and umount)
+Maintainer: Dimitrij <dima-73@inbox.lv>
+Priority: optional
+License: GNU GPLv2
+
+
 Package: enigma2-plugin-extensions-skyrecorder
 Version: 2.0.3a-py2
 Depends: libsqlite3-0, python-sqlite3, python-html, python-json, python-requests
@@ -1311,6 +1308,20 @@ Homepage: pcd@www.xtrend-alliace.com
 OE: kodidirect
 
 
+Package: enigma2-plugin-extensions-cccaminfo
+Version: 1.4
+Section: base
+Architecture: all
+MD5Sum: e0902d48939573b2a6fde76765d5eeac
+Size: 45928
+Filename: enigma2-plugin-extensions-cccaminfo_1.4_all.ipk
+Description: Enigma2 Plugin: cccaminfo GUI that allows you to check the CCcam status
+Maintainer: AliAbdul, Gruffy, Hutten, Nemesis, WeeGull, Dimitrij
+Priority: optional
+Homepage: unknown
+OE: 2.0
+
+
 Package: enigma2-plugin-extensions-sport1ticker
 Version: 1.3
 Section: extra
@@ -1323,6 +1334,21 @@ Maintainer: einfall
 Priority: optional
 Source: http://www.vuplus-support.org
 Homepage: http://www.vuplus-support.org
+
+
+Package: enigma2-plugin-extensions-xcplugin-forever
+Version: 1.7
+Section: extra
+Architecture: all
+MD5Sum: f0512b15a296022f6671aa262b53f5ab
+Size: 974018
+Filename: enigma2-plugin-extensions-xcplugin-forever_1.7_all.ipk
+Description: plugin, for the free streaming.
+Maintainer: Lululla <ekekaz@gmail.com>
+Priority: optional
+Source: none
+Homepage: 
+OE: OE2.0
 
 
 Package: enigma2-plugin-extensions-dvrproviderplayer
