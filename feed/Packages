@@ -928,6 +928,21 @@ OE: linux-oe2.0
 License: GPL
 
 
+Package: enigma2-plugin-extensions-xcplugin-forever
+Version: 1.8
+Section: extra
+Architecture: all
+MD5Sum: bca72fdae2f8cc1de0a3a809757ee2d6
+Size: 937414
+Filename: enigma2-plugin-extensions-xcplugin-forever_1.8_all.ipk
+Description: plugin, for the free streaming.
+Maintainer: Lululla <ekekaz@gmail.com>
+Priority: optional
+Source: none
+Homepage: 
+OE: OE2.0
+
+
 Package: enigma2-plugin-extensions-webradiofs
 Version: 9.51
 Depends: python-sqlite3
@@ -1334,21 +1349,6 @@ Maintainer: einfall
 Priority: optional
 Source: http://www.vuplus-support.org
 Homepage: http://www.vuplus-support.org
-
-
-Package: enigma2-plugin-extensions-xcplugin-forever
-Version: 1.7
-Section: extra
-Architecture: all
-MD5Sum: f0512b15a296022f6671aa262b53f5ab
-Size: 974018
-Filename: enigma2-plugin-extensions-xcplugin-forever_1.7_all.ipk
-Description: plugin, for the free streaming.
-Maintainer: Lululla <ekekaz@gmail.com>
-Priority: optional
-Source: none
-Homepage: 
-OE: OE2.0
 
 
 Package: enigma2-plugin-extensions-dvrproviderplayer
