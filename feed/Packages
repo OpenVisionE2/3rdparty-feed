@@ -1054,6 +1054,19 @@ Homepage: www.test.com
 OE: vpnchanger-1.2.9
 
 
+Package: enigma2-plugin-extensions-videoplayer-simple_2.1_all
+Version: 2.1
+Section: extra
+Architecture: all
+MD5Sum: d520674023096e9f4a0a03b26d9f4c7e
+Size: 35578
+Filename: enigma2-plugin-extensions-videoplayer-simple_2.1_all.ipk
+Description: Video Player Simple
+Maintainer: mrvica
+Priority: optional
+OE: enigma2-plugin-extensions-videoplayer-simple_2.1_all
+
+
 Package: enigma2-plugin-extensions-wikipedia
 Version: 2.3rc3
 Section: extra
