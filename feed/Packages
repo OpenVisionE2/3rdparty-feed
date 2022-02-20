@@ -451,21 +451,6 @@ Homepage: unknown
 OE: BlackAlu-Coolman-Mod
 
 
-Package: enigma2-plugin-extensions-xcplugin-forever
-Version: 1.9
-Section: extra
-Architecture: all
-MD5Sum: 059b9eb7425cf291dff3de9b9cde2dc3
-Size: 937728
-Filename: enigma2-plugin-extensions-xcplugin-forever_1.9_all.ipk
-Description: plugin, for the free streaming.
-Maintainer: Lululla <ekekaz@gmail.com>
-Priority: optional
-Source: none
-Homepage: 
-OE: OE2.0
-
-
 Package: enigma2-plugin-extensions-mp3browser
 Version: 2.0rc1
 Depends: python-mutagen
@@ -909,6 +894,21 @@ Source: file://*.py file://*.png
 Homepage: http://www.dreambox-tools.info
 OE: enigma2-plugin-extensions-ehue
 License: GPL
+
+
+Package: enigma2-plugin-extensions-xcplugin-forever
+Version: 2.2
+Section: extra
+Architecture: all
+MD5Sum: f6f01c8b6960db11dffbaac5cf68a958
+Size: 1018470
+Filename: enigma2-plugin-extensions-xcplugin-forever_2.2_all.ipk
+Description: plugin, for the free streaming.
+Maintainer: Lululla <ekekaz@gmail.com>
+Priority: optional
+Source: none
+Homepage: *
+OE: OE2.0
 
 
 Package: nigma2-plugin-extensions-livefootball
