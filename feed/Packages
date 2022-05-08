@@ -525,21 +525,6 @@ OE: enigma2-plugins
 License: CC_BY-NC-SA_3.0
 
 
-Package: enigma2-plugin-extensions-tvspielfilm
-Version: 6.6rc4
-Depends: python-pyopenssl python-textutils
-Section: extra
-Architecture: all
-MD5Sum: f4fbf52156a335aa41fd12f9aca16bbb
-Size: 2039874
-Filename: enigma2-plugin-extensions-tvspielfilm_6.6rc4_all.ipk
-Description: TV Spielfilm Plugin
-Maintainer: kashmir
-Priority: optional
-Source: http://www.kashmir-plugins.de
-Homepage: http://www.kashmir-plugins.de
-
-
 Package: enigma2-plugin-extensions-verkehrsinfo
 Version: 1.2rc3
 Section: extra
@@ -966,6 +951,22 @@ Priority: optional
 License: GPL v2 or later
 
 
+Package: enigma2-plugin-extensions-skyrecorder
+Version: 2.1.1d-py2
+Depends: libsqlite3-0, python-sqlite3, python-html, python-json, python-requests
+Conflicts: enigma2-plugin-extensions-skyanytime
+Replaces: enigma2-plugin-extensions-skyanytime
+Section: misc
+Architecture: all
+MD5Sum: 6da5b309d0729afe25c7be3e45b2bc9e
+Size: 391338
+Filename: enigma2-plugin-extensions-skyrecorder_2.1.1d-py2_all.ipk
+Description: SkyRecorder - a plugin to add automatically timers for new SKY broadcasts - using API to download coverfiles from TMDB - change to FHD Skins
+Maintainer: einfall greysky matzze2000 dre Hilfsbereit murxer Fitz'
+Priority: optional
+Homepage: http://www.vuplus-support.org/wbb3/index.php?page=Thread&threadID=94151
+
+
 Package: enigma2-plugin-extensions-customsubservices
 Version: 0.1.3
 Section: extra
@@ -978,22 +979,6 @@ Maintainer: monty03
 Priority: optional
 Homepage: none
 OE: enigma2-plugin-extensions-customsubservices
-
-
-Package: enigma2-plugin-extensions-skyrecorder
-Version: 2.0.3c-py2
-Depends: libsqlite3-0, python-sqlite3, python-html, python-json, python-requests
-Conflicts: enigma2-plugin-extensions-skyanytime
-Replaces: enigma2-plugin-extensions-skyanytime
-Section: misc
-Architecture: all
-MD5Sum: 067357cc677ea60308c883f3fc45c8ba
-Size: 383052
-Filename: enigma2-plugin-extensions-skyrecorder_2.0.3c-py2_all.ipk
-Description: SkyRecorder - a plugin to add automatically timers for new SKY broadcasts - using API to download coverfiles from TMDB - change to FHD Skins
-Maintainer: einfall greysky matzze2000 dre Hilfsbereit murxer Fitz'
-Priority: optional
-Homepage: http://www.vuplus-support.org/wbb3/index.php?page=Thread&threadID=94151
 
 
 Package: enigma2-plugin-extensions-xbmcwetter
