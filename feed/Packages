@@ -298,35 +298,6 @@ Homepage: *
 OE: OE2.0
 
 
-Package: enigma2-plugin-extensions-sport1ticker
-Version: 1.3
-Section: extra
-Architecture: all
-MD5Sum: b131b802fed89b0ae595aaf17c1d168d
-Size: 222018
-Filename: enigma2-plugin-extensions-sport1ticker_1.3_all.ipk
-Description: Sport1 Live Ticker
-Maintainer: einfall
-Priority: optional
-Source: http://www.vuplus-support.org
-Homepage: http://www.vuplus-support.org
-
-
-Package: nigma2-plugin-extensions-livefootball
-Version: .1
-Depends: 
-Section: base
-Architecture: ll
-MD5Sum: cec2526510c0edea31b9b8f0935c7268
-Size: 2428578
-Filename: enigma2-plugin-extensions-livefootball_7.1_all.ipk
-Description: live soccer matches,fixtures and results
-Maintainer: mFaraj <mfaraj57@gmail.com>
-Priority: optional
-Source: Tunisiasat
-Homepage: Tunisiasat
-
-
 Package: enigma2-plugin-extensions-audiopip
 Version: 0.3
 Section: extra
@@ -473,6 +444,21 @@ Priority: optional
 Source: 
 Homepage: unknown
 OE: gmailreader 1.3
+
+
+Package: nigma2-plugin-extensions-livefootball
+Version: .7
+Depends: 
+Section: base
+Architecture: ll
+MD5Sum: f4711616b81b5f20418a3b70c3931d04
+Size: 1133352
+Filename: enigma2-plugin-extensions-livefootball_6.7_all.ipk
+Description: live soccer matches,fixtures and results
+Maintainer: mFaraj <mfaraj57@gmail.com>
+Priority: optional
+Source: dreamoem.com
+Homepage: dreamoem.com
 
 
 Package: enigma2-plugin-extensions-tsvpn
