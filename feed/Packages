@@ -1,29 +1,41 @@
-Package: enigma2-plugin-extensions-timfs
-Version: .32
-Section: Utilities
-Architecture: all
-MD5Sum: 355112ce2af624cc0691fae3d600db3b
-Size: 27870
-Filename: enigma2-plugin-extensions-timfs_2.32_all.ipk
-Description: timFS
-Maintainer: shadowrider plugins@fs-plugins.de
-Priority: optional
-Homepage: www.fs-plugins.de
-OE: all
-
-
-Package: enigma2-plugin-extensions-customsubservices
-Version: 0.1.3
+Package: enigma2-plugin-extensions-webmedia
+Version: 14.0_r0
 Section: extra
 Architecture: all
-MD5Sum: 458239599ca65b4d544f6aa31a0beb42
-Size: 7486
-Filename: enigma2-plugin-extensions-customsubservices_0.1.3_all.ipk
-Description: XML-based subservices switching
-Maintainer: monty03
+MD5Sum: 56cb45b4832f97824fd1853dec95d15f
+Size: 5287018
+Filename: enigma2-plugin-extensions-webmedia_14.0_r0_all.ipk
+Description: Enigma2 Plugin webmedia by pcd
+Maintainer: pcd@www.xtrend-alliace.com
 Priority: optional
-Homepage: none
-OE: enigma2-plugin-extensions-customsubservices
+Homepage: pcd@www.xtrend-alliace.com
+OE: movietime
+
+
+Package: enigma2-plugin-extensions-verkehrsinfo
+Version: 1.2rc3
+Section: extra
+Architecture: all
+MD5Sum: 92c7670317059105dc21e09f859b576e
+Size: 463042
+Filename: enigma2-plugin-extensions-verkehrsinfo_1.2rc3_all.ipk
+Description: verkehrsinfo.de Plugin
+Maintainer: kashmir
+Priority: optional
+Homepage: http://www.kashmir-plugins.de
+
+
+Package: enigma2-plugin-extensions-cyrussettings
+Version: 1.0.0
+Section: misc
+Architecture: all
+MD5Sum: 96ddc5009519b8f918d3f7a6a09252ce
+Size: 23858
+Filename: enigma2-plugin-extensions-cyrussettings_1.0.0_all.ipk
+Description: CyrusSettings
+Maintainer: by m43c0 & mmark
+Priority: optional
+Source: 
 
 
 Package: enigma2-plugin-extensions-netspeedtest
@@ -39,343 +51,6 @@ Priority: optional
 Homepage: http://www.tunisia-sat.com
 OE: enigma2-plugin-extensions-netspeedtest
 License: open
-
-
-Package: enigma2-plugin-extensions-oscamstatusview
-Version: 1.0rc1
-Section: extra
-Architecture: all
-MD5Sum: 58cbb2a1c883b4b2a2e93f1ea7003224
-Size: 727194
-Filename: enigma2-plugin-extensions-oscamstatusview_1.0rc1_all.ipk
-Description: OSCam Status View Plugin
-Maintainer: kashmir
-Priority: optional
-Homepage: http://www.kashmir-plugins.de
-
-
-Package: enigma2-plugin-extensions-sundtekcontrolcenter
-Version: 20210624-2
-Section: extra
-Architecture: all
-MD5Sum: 5734782b58ca686e87e4a039aa7d5a30
-Size: 97492
-Filename: enigma2-plugin-extensions-sundtekcontrolcenter_20210624-2_all.ipk
-Description: control sundtek usb stick from enigma2
-Maintainer: Sundtek
-Priority: optional
-Homepage: http://support.sundtek.de
-OE: sundtekcontrolcenter-20210624-2
-
-
-Package: enigma2-plugin-extensions-dvrproviderplayer
-Version: .06
-Section: multimedia
-Architecture: all
-MD5Sum: 60b50d625775403922cdc128f21a4fd1
-Size: 82892
-Filename: enigma2-plugin-extensions-dvrproviderplayer_2.06_all.ipk
-Description: DVR-Provider-Player-Player
-Maintainer: shadowrider <plugins@fs-plugins.de>
-Priority: optional
-Homepage: www.fs-plugins.de
-OE: all
-
-
-Package: enigma2-plugin-extensions-xcplugin-forever
-Version: 2.2
-Section: extra
-Architecture: all
-MD5Sum: f6f01c8b6960db11dffbaac5cf68a958
-Size: 1018470
-Filename: enigma2-plugin-extensions-xcplugin-forever_2.2_all.ipk
-Description: plugin, for the free streaming.
-Maintainer: Lululla <ekekaz@gmail.com>
-Priority: optional
-Source: none
-Homepage: *
-OE: OE2.0
-
-
-Package: enigma2-plugin-extensions-wikipedia
-Version: 2.3rc3
-Section: extra
-Architecture: all
-MD5Sum: cd88ab74f4f4e416e03900f7badf8d0d
-Size: 320654
-Filename: enigma2-plugin-extensions-wikipedia_2.3rc3_all.ipk
-Description: Wikipedia Plugin
-Maintainer: kashmir
-Priority: optional
-Homepage: http://www.kashmir-plugins.de
-
-
-Package: enigma2-plugin-extensions-pravoslavietv
-Version: 0.2
-Recommends: curl
-Section: base
-Architecture: all
-MD5Sum: 54b339f12f037ffb9bbde88898d9b379
-Size: 177750
-Filename: enigma2-plugin-extensions-pravoslavietv_0.2_all.ipk
-Description: IPTV - Soyuz, Spas, Voskresenie, Radonezh
-Maintainer: Dimitrij <dima-73@inbox.lv>
-Priority: optional
-
-
-Package: enigma2-plugin-extensions-filesearchfs
-Version: .0
-Section: extra
-Architecture: all
-MD5Sum: a0f339ec40971069b0f16b951c8d9c91
-Size: 34816
-Filename: enigma2-plugin-extensions-filesearchfs_3.0_all.ipk
-Description: search files and folders
-Maintainer: shadowrider plugins@fs-plugins.de
-Priority: optional
-Source: 
-Homepage: www.fs-plugins.de
-
-
-Package: nigma2-plugin-extensions-tsmedia
-Version: 15.0
-Recommends: python-json,python-request
-Section: extra
-Architecture: all
-MD5Sum: e0d51b503503cb4f9ffb6dd67cbf866d
-Size: 7330658
-Filename: enigma2-plugin-extensions-tsmedia_15.0_all.ipk
-Description: streaming of all types of internet media
-Maintainer: mfaraj57 <@tunisia-sat.com>
-Priority: optional
-Source: file://TSmedia
-Homepage: http://www.tunisia-sat.com
-OE: enigma2-plugin-extensions-tsmedia
-License: CLOSED
-
-
-Package: enigma2-plugin-extensions-mediainfo
-Version: 3.0.8
-Depends: python-requests (>= 2.0.0)
-Section: extra
-Architecture: all
-MD5Sum: 72003e0bcbbe20b378f21fdf2778a607
-Size: 10816
-Filename: enigma2-plugin-extensions-mediainfo_3.0.8_all.ipk
-Description: MediaInfo
-Maintainer: MP
-Priority: optional
-Source: GIT
-Homepage: none
-OE: MediaInfo
-
-
-Package: enigma2-plugin-extensions-planerfs
-Version: .43
-Depends: ython-datetime
-Section: extra
-Architecture: all
-MD5Sum: 70c1015a65c3c1726abba0235c1dc169
-Size: 618230
-Filename: enigma2-plugin-extensions-planerfs_9.43_all.ipk
-Description: Calendar, appointment and address management
-Maintainer: shadowrider plugins@fs-plugins.de
-Priority: optional
-Homepage: www.fs-plugins.de
-
-
-Package: enigma2-plugin-extensions-picturecenterfs
-Version: .39
-Depends: python-imaging
-Section: extra
-Architecture: all
-MD5Sum: 8eec2c3dec04d7315ce65f5ee4251504
-Size: 256148
-Filename: enigma2-plugin-extensions-picturecenterfs_8.39_all.ipk
-Description: View and manage your pictures faster and easily
-Maintainer: shadowrider plugins@fs-plugins.de
-Priority: optional
-Homepage: www.fs-plugins.de
-
-
-Package: enigma2-plugin-extensions-ehue
-Version: 0.2-r0
-Depends: python-simplejson
-Section: extra
-Architecture: all
-MD5Sum: 9ad868cb5c48cfc107e6ed20342d7cb3
-Size: 37390
-Filename: enigma2-plugin-extensions-ehue_0.2-r0_all.ipk
-Description: enigma2-plugin-extensions-ehue version 0.2-r0
-Maintainer: DarkVolli
-Priority: optional
-Source: file://*.py file://*.png
-Homepage: http://www.dreambox-tools.info
-OE: enigma2-plugin-extensions-ehue
-License: GPL
-
-
-Package: enigma2-plugin-extensions-skyrecorder
-Version: 2.1.1d-py2
-Depends: libsqlite3-0, python-sqlite3, python-html, python-json, python-requests
-Conflicts: enigma2-plugin-extensions-skyanytime
-Replaces: enigma2-plugin-extensions-skyanytime
-Section: misc
-Architecture: all
-MD5Sum: 6da5b309d0729afe25c7be3e45b2bc9e
-Size: 391338
-Filename: enigma2-plugin-extensions-skyrecorder_2.1.1d-py2_all.ipk
-Description: SkyRecorder - a plugin to add automatically timers for new SKY broadcasts - using API to download coverfiles from TMDB - change to FHD Skins
-Maintainer: einfall greysky matzze2000 dre Hilfsbereit murxer Fitz'
-Priority: optional
-Homepage: http://www.vuplus-support.org/wbb3/index.php?page=Thread&threadID=94151
-
-
-Package: enigma2-plugin-extensions-screensaver
-Version: 5.7.1
-Section: extra
-Architecture: all
-MD5Sum: cde074616849391ef8f7bb1fc5b7c218
-Size: 2336352
-Filename: enigma2-plugin-extensions-screensaver_5.7.1_all.ipk
-Description: Screensaver for Enigma2
-Maintainer: gutemine <gutemine@dummy.com>
-Priority: optional
-OE: screensaver-5.7
-
-
-Package: enigma2-plugin-extensions-mp3browser
-Version: 2.0rc1
-Depends: python-mutagen
-Section: extra
-Architecture: all
-MD5Sum: 02fd4c3ebdc15e85c0e258fd34bc3cb0
-Size: 780532
-Filename: enigma2-plugin-extensions-mp3browser_2.0rc1_all.ipk
-Description: MP3 Browser Plugin
-Maintainer: kashmir
-Priority: optional
-Source: http://www.kashmir-plugins.de
-Homepage: http://www.kashmir-plugins.de
-
-
-Package: enigma2-plugin-extensions-camofs
-Version: 7.35
-Depends: python-imaging, python-subprocess
-Section: extra
-Architecture: all
-MD5Sum: d15c85582c9115c5e4bd5f9f4a8841e5
-Size: 394706
-Filename: enigma2-plugin-extensions-camofs_17.35_all.ipk
-Description: camoFS
-Maintainer: shadowrider plugins@fs-plugins.de
-Priority: optional
-Homepage: www.fs-plugins.de
-OE: all
-
-
-Package: enigma2-plugin-extensions-ipchecker
-Version: 003
-Section: Extensions
-Architecture: all
-MD5Sum: a0b7272d84b122a063284f34e4de6573
-Size: 5250
-Filename: enigma2-plugin-extensions-ipchecker_003_all.ipk
-Description: plugin to check your boxes external IP adress
-Maintainer: dsayers
-Priority: optional
-Source: 
-Homepage: 
-
-
-Package: enigma2-plugin-extensions-xcplugin-iptv-mod-lululla
-Version: 6.7
-Depends: python-html
-Section: enigma2
-Architecture: all
-MD5Sum: 40e018230a16287d64310b8051b7be0b
-Size: 471194
-Filename: enigma2-plugin-extensions-xcplugin-iptv-mod-lululla_6.7_all.ipk
-Description: XCplugin-VOD-IPTV-CONVERT-REC-PLAYER-TEAM
-Maintainer: *
-Priority: optional
-Source: /
-Homepage: *
-OE: 2.0 - 2.2 - 2.5
-License: *
-
-
-Package: enigma2-plugin-extensions-mspfs
-Version: .06
-Depends: ython-datetime
-Section: Utilities
-Architecture: all
-MD5Sum: 337606ac6d56dde1b658e2046e8ebce5
-Size: 75214
-Filename: enigma2-plugin-extensions-mspfs_1.06_all.ipk
-Description: mspFS-mein Schichtplan
-Maintainer: shadowrider plugins@fs-plugins.de
-Priority: optional
-Homepage: www.fs-plugins.de
-OE: all
-
-
-Package: enigma2-plugin-extensions-piconmanager
-Version: 2.2-20150329-r0
-Depends: python-core
-Section: base
-Architecture: all
-MD5Sum: d53c8e0be964b46ad1056d2e295d3d81
-Size: 32844
-Filename: enigma2-plugin-extensions-piconmanager_2.2-20150329-r0_all.ipk
-Description: Picon Manager by VTi
-Maintainer: NaseDC
-Priority: optional
-Source: git://git@debian7-build-vm01/vti-po-e2.git;destsuffix=git_po;protocol=ssh;branch=master;tag=master file://enigma2-plugin-extensions-piconmanager file://licensefiles/LICENSE.GPLv2
-Homepage: http://www.vuplus-support.org
-OE: enigma2-plugin-extensions-piconmanager
-License: GPLv2
-
-
-Package: enigma2-plugin-extensions-moviebrowser
-Version: 3.7rc3
-Depends: python-pyopenssl python-textutils python-misc
-Section: extra
-Architecture: all
-MD5Sum: ebce6a7d35945c5e77535ef6c73f6678
-Size: 1567082
-Filename: enigma2-plugin-extensions-moviebrowser_3.7rc3_all.ipk
-Description: Movie Browser Plugin
-Maintainer: kashmir
-Priority: optional
-Source: http://www.kashmir-plugins.de
-Homepage: http://www.kashmir-plugins.de
-
-
-Package: enigma2-plugin-extensions-spinnerselector
-Version: 2.3
-Section: misc
-Architecture: all
-MD5Sum: 0eca9f768bb89e89a62e17cf2ca492cb
-Size: 9719172
-Filename: enigma2-plugin-extensions-spinnerselector_2.3_all.ipk
-Description: 
-Maintainer: 
-Priority: optional
-
-
-Package: enigma2-plugin-extensions-pluginspanel
-Version: 1.0_r01
-Section: extra
-Architecture: all
-MD5Sum: dfc8fce40a3c1488325b06a0089229e7
-Size: 7902
-Filename: enigma2-plugin-extensions-pluginspanel_1.0_r01_all.ipk
-Description: plugins panel
-Maintainer: mfaraj57 <mfaraj57@www.dreamoem.com>
-Priority: optional
-Homepage: www.dreamoem.com
-OE: pluginspanel-1.0
 
 
 Package: enigma2-plugin-extensions-pzyemail
@@ -395,221 +70,18 @@ Source:
 Homepage: ihad
 
 
-Package: enigma2-plugin-extensions-webradiofs
-Version: 9.51
-Depends: python-sqlite3
-Section: extra
+Package: enigma2-plugin-extensions-dvrproviderplayer
+Version: .06
+Section: multimedia
 Architecture: all
-MD5Sum: c7e8bccb6a6cf5dc15551e061b6489d2
-Size: 481730
-Filename: enigma2-plugin-extensions-webradiofs_19.51_all.ipk
-Description: webradioFS
-Maintainer: shadowrider plugins@fs-plugins.de
+MD5Sum: 60b50d625775403922cdc128f21a4fd1
+Size: 82892
+Filename: enigma2-plugin-extensions-dvrproviderplayer_2.06_all.ipk
+Description: DVR-Provider-Player-Player
+Maintainer: shadowrider <plugins@fs-plugins.de>
 Priority: optional
 Homepage: www.fs-plugins.de
-
-
-Package: enigma2-plugin-systemplugins-channelselectionnavigator
-Version: 1.5
-Section: base
-Architecture: all
-MD5Sum: ee86438d190a62db15dd2d70c5d4b9fb
-Size: 14550
-Filename: enigma2-plugin-systemplugins-channelselectionnavigator_1.5_all.ipk
-Description: navigator for channel selection
-Maintainer: 
-Priority: optional
-OE: enigma2
-License: unknown
-
-
-Package: enigma2-plugin-extensions-verkehrsinfo
-Version: 1.2rc3
-Section: extra
-Architecture: all
-MD5Sum: 92c7670317059105dc21e09f859b576e
-Size: 463042
-Filename: enigma2-plugin-extensions-verkehrsinfo_1.2rc3_all.ipk
-Description: verkehrsinfo.de Plugin
-Maintainer: kashmir
-Priority: optional
-Homepage: http://www.kashmir-plugins.de
-
-
-Package: enigma2-plugin-extensions-pluginupdater
-Version: 0.1r2
-Section: misc
-Architecture: all
-MD5Sum: bc960a3d5a49f1d0f4f221d6f678a47a
-Size: 4428
-Filename: enigma2-plugin-extensions-pluginupdater_0.1r2_all.ipk
-Description: Pluginupdater only for Plugins by Nobody28
-Maintainer: Nobody28
-Priority: optional
-Source: 
-
-
-Package: enigma2-plugin-extensions-screengrabber
-Version: 2.6
-Section: extra
-Architecture: all
-MD5Sum: 560fa82f0aefe0d3b3431bd64d824917
-Size: 113484
-Filename: enigma2-plugin-extensions-screengrabber_2.6_all.ipk
-Description: take screenshot of enigma2 box screen for python 3
-Maintainer: mFaraj <mfaraj57@gmail.com>
-Priority: optional
-Source: ./
-Homepage: tunisia-sat.com,dreamoem.com
-
-
-Package: enigma2-plugin-extensions-fontmagnifier
-Version: 0.7.0
-Depends: enigma2
-Section: plugin
-Architecture: all
-MD5Sum: e4137ba92a78e29a7e1f981ab4110c4f
-Size: 24086
-Filename: enigma2-plugin-extensions-fontmagnifier_0.7.0_all.ipk
-Description: Tool to modify enigma 2 gui font sizes.
-Maintainer: BigReaper <BigReaper@gmx.net>, WanWizard (py3 fixes)
-Priority: optional
-Source: http://www.i-have-a-dreambox.com/wbb2/thread.php?threadid=124693
-Homepage: http://www.i-have-a-dreambox.com/wbb2/thread.php?threadid=124693
-
-
-Package: enigma2-plugin-extensions-webmedia
-Version: 14.0_r0
-Section: extra
-Architecture: all
-MD5Sum: 56cb45b4832f97824fd1853dec95d15f
-Size: 5287018
-Filename: enigma2-plugin-extensions-webmedia_14.0_r0_all.ipk
-Description: Enigma2 Plugin webmedia by pcd
-Maintainer: pcd@www.xtrend-alliace.com
-Priority: optional
-Homepage: pcd@www.xtrend-alliace.com
-OE: movietime
-
-
-Package: enigma2-plugin-extensions-apcupsd-tools
-Version: 1.4
-Depends: libwrap0, libusb-0.1-4
-Section: base
-Architecture: all
-MD5Sum: af2c4dd4883df63808b833cef4f744ff
-Size: 538774
-Filename: enigma2-plugin-extensions-apcupsd-tools_1.4_all.ipk
-Description: UPS power management for APC products
-Maintainer: Dimitrij <Dima-73@inbox.lv>
-Priority: optional
-Homepage: openpli
-OE: 2.0
-License: unknown
-
-
-Package: enigma2-plugin-systemplugins-extnumberzap
-Version: 1.21
-Section: base
-Architecture: all
-MD5Sum: 83f8230c7580ce12141b62a564761fb9
-Size: 22378
-Filename: enigma2-plugin-systemplugins-extnumberzap_1.21_all.ipk
-Description: Extended NumberZap Plugin for Enigma2
-Maintainer: Dimitrij
-Priority: optional
-OE: enigma2
-
-
-Package: enigma2-plugin-extensions-wwech
-Version: 1.03
-Depends: 
-Section: extra
-Architecture: all
-MD5Sum: d7f7c648df8e874404dae851cf887996
-Size: 17492
-Filename: enigma2-plugin-extensions-wwech_1.03_all.ipk
-Description: watch wrestling
-Maintainer: none
-Priority: optional
-Source: losed
-Homepage: none
-OE: 
-
-
-Package: enigma2-plugin-extensions-cyrussettings
-Version: 1.0.0
-Section: misc
-Architecture: all
-MD5Sum: 96ddc5009519b8f918d3f7a6a09252ce
-Size: 23858
-Filename: enigma2-plugin-extensions-cyrussettings_1.0.0_all.ipk
-Description: CyrusSettings
-Maintainer: by m43c0 & mmark
-Priority: optional
-Source: 
-
-
-Package: enigma2-plugin-extensions-gmailreader-oe2.0
-Version: 1.3
-Depends: 
-Section: extra
-Architecture: all
-MD5Sum: fb87595f217edc34eca4a8605baf5c5f
-Size: 202708
-Filename: enigma2-plugin-extensions-gmailreader-oe2.0_1.3_all.ipk
-Description: mailreader
-Maintainer: mfaraj57
-Priority: optional
-Source: 
-Homepage: unknown
-OE: gmailreader 1.3
-
-
-Package: enigma2-plugin-extensions-serienrecorder
-Version: 4.4.7
-Depends: enigma2, python-sqlite3, python-json, python-textutils, openssl, python-pyopenssl, python-zlib, python-compression, python-xmlrpc, python-difflib, python-numbers, python-subprocess, python-email, python-html, python-requests
-Section: extra
-Architecture: all
-MD5Sum: b1fcfefe10d2e2136028c37a82ae610e
-Size: 705890
-Filename: enigma2-plugin-extensions-serienrecorder_4.4.7_all.ipk
-Description: Erstellt automatisiert Timer fuer deine Lieblings-Serien - nie mehr eine Folge verpassen!
-Maintainer: einfall & w22754 & egn & MacDisein
-Priority: optional
-Source: https://github.com/einfall/serienrecorder
-Homepage: http://www.serienserver.de
-OE: linux-oe2.0
-License: GPL
-
-
-Package: enigma2-plugin-extensions-transmission
-Version: 2.92-r2
-Depends: transmission, libevent, libcurl4, libc6, libgnutls-openssl27, libgcrypt, libgpg-error, libssl*, libcrypto*, libz1
-Section: network
-Architecture: all
-MD5Sum: cb2046f4a6c343c7ed7ca23d1e01c298
-Size: 3454
-Filename: enigma2-plugin-extensions-transmission_2.92-r2_all.ipk
-Description: Transmission is a BitTorrent client w/ a built-in Ajax-Powered Webif GUI.
-Maintainer: OpenEmbedded Team <openembedded-devel@lists.openembedded.org>
-Priority: optional
-Homepage: www.transmissionbt.com/
-OE: transmission-2.92
-License: GPLv2
-
-
-Package: enigma2-plugin-extensions-vuplusforum
-Version: 0.8rc2
-Section: extra
-Architecture: all
-MD5Sum: de6b982a2c486b285113b0fc07f9b0c5
-Size: 130016
-Filename: enigma2-plugin-extensions-vuplusforum_0.8rc2_all.ipk
-Description: VuPlus Support Forum Plugin
-Maintainer: kashmir
-Priority: optional
-Homepage: http://www.kashmir-plugins.de
+OE: all
 
 
 Package: enigma2-plugin-extensions-mediaportal
@@ -629,6 +101,91 @@ Homepage: none
 OE: MediaPortal
 
 
+Package: enigma2-plugin-extensions-pluginupdater
+Version: 0.1r2
+Section: misc
+Architecture: all
+MD5Sum: bc960a3d5a49f1d0f4f221d6f678a47a
+Size: 4428
+Filename: enigma2-plugin-extensions-pluginupdater_0.1r2_all.ipk
+Description: Pluginupdater only for Plugins by Nobody28
+Maintainer: Nobody28
+Priority: optional
+Source: 
+
+
+Package: enigma2-plugin-extensions-piconmanager
+Version: 2.2-20150329-r0
+Depends: python-core
+Section: base
+Architecture: all
+MD5Sum: d53c8e0be964b46ad1056d2e295d3d81
+Size: 32844
+Filename: enigma2-plugin-extensions-piconmanager_2.2-20150329-r0_all.ipk
+Description: Picon Manager by VTi
+Maintainer: NaseDC
+Priority: optional
+Source: git://git@debian7-build-vm01/vti-po-e2.git;destsuffix=git_po;protocol=ssh;branch=master;tag=master file://enigma2-plugin-extensions-piconmanager file://licensefiles/LICENSE.GPLv2
+Homepage: http://www.vuplus-support.org
+OE: enigma2-plugin-extensions-piconmanager
+License: GPLv2
+
+
+Package: enigma2-plugin-extensions-oscamstatusview
+Version: 1.0rc1
+Section: extra
+Architecture: all
+MD5Sum: 58cbb2a1c883b4b2a2e93f1ea7003224
+Size: 727194
+Filename: enigma2-plugin-extensions-oscamstatusview_1.0rc1_all.ipk
+Description: OSCam Status View Plugin
+Maintainer: kashmir
+Priority: optional
+Homepage: http://www.kashmir-plugins.de
+
+
+Package: enigma2-plugin-extensions-mspfs
+Version: .06
+Depends: ython-datetime
+Section: Utilities
+Architecture: all
+MD5Sum: 337606ac6d56dde1b658e2046e8ebce5
+Size: 75214
+Filename: enigma2-plugin-extensions-mspfs_1.06_all.ipk
+Description: mspFS-mein Schichtplan
+Maintainer: shadowrider plugins@fs-plugins.de
+Priority: optional
+Homepage: www.fs-plugins.de
+OE: all
+
+
+Package: enigma2-plugin-extensions-pluginspanel
+Version: 1.0_r01
+Section: extra
+Architecture: all
+MD5Sum: dfc8fce40a3c1488325b06a0089229e7
+Size: 7902
+Filename: enigma2-plugin-extensions-pluginspanel_1.0_r01_all.ipk
+Description: plugins panel
+Maintainer: mfaraj57 <mfaraj57@www.dreamoem.com>
+Priority: optional
+Homepage: www.dreamoem.com
+OE: pluginspanel-1.0
+
+
+Package: enigma2-plugin-extensions-wikipedia
+Version: 2.3rc3
+Section: extra
+Architecture: all
+MD5Sum: cd88ab74f4f4e416e03900f7badf8d0d
+Size: 320654
+Filename: enigma2-plugin-extensions-wikipedia_2.3rc3_all.ipk
+Description: Wikipedia Plugin
+Maintainer: kashmir
+Priority: optional
+Homepage: http://www.kashmir-plugins.de
+
+
 Package: enigma2-plugin-extensions-blackout-blind_1.3_all
 Version: 1.3
 Depends: 
@@ -642,6 +199,287 @@ Maintainer: mrvica
 Priority: optional
 Homepage: 
 OE: enigma2-plugin-extensions-blackout-blind_1.3_all
+
+
+Package: enigma2-plugin-extensions-screengrabber
+Version: 2.6
+Section: extra
+Architecture: all
+MD5Sum: 560fa82f0aefe0d3b3431bd64d824917
+Size: 113484
+Filename: enigma2-plugin-extensions-screengrabber_2.6_all.ipk
+Description: take screenshot of enigma2 box screen for python 3
+Maintainer: mFaraj <mfaraj57@gmail.com>
+Priority: optional
+Source: ./
+Homepage: tunisia-sat.com,dreamoem.com
+
+
+Package: enigma2-plugin-extensions-ipchecker
+Version: 003
+Section: Extensions
+Architecture: all
+MD5Sum: a0b7272d84b122a063284f34e4de6573
+Size: 5250
+Filename: enigma2-plugin-extensions-ipchecker_003_all.ipk
+Description: plugin to check your boxes external IP adress
+Maintainer: dsayers
+Priority: optional
+Source: 
+Homepage: 
+
+
+Package: enigma2-plugin-extensions-wwech
+Version: 1.03
+Depends: 
+Section: extra
+Architecture: all
+MD5Sum: d7f7c648df8e874404dae851cf887996
+Size: 17492
+Filename: enigma2-plugin-extensions-wwech_1.03_all.ipk
+Description: watch wrestling
+Maintainer: none
+Priority: optional
+Source: losed
+Homepage: none
+OE: 
+
+
+Package: enigma2-plugin-extensions-xbmcwetter
+Version: 1.4rc1
+Section: extra
+Architecture: all
+MD5Sum: 19166c7243a6a461fb1892aefb443697
+Size: 6650526
+Filename: enigma2-plugin-extensions-xbmcwetter_1.4rc1_all.ipk
+Description: xbmc Wetter Plugin
+Maintainer: kashmir
+Priority: optional
+Homepage: http://www.kashmir-plugins.de
+
+
+Package: enigma2-plugin-extensions-sundtekcontrolcenter
+Version: 20210624-2
+Section: extra
+Architecture: all
+MD5Sum: 5734782b58ca686e87e4a039aa7d5a30
+Size: 97492
+Filename: enigma2-plugin-extensions-sundtekcontrolcenter_20210624-2_all.ipk
+Description: control sundtek usb stick from enigma2
+Maintainer: Sundtek
+Priority: optional
+Homepage: http://support.sundtek.de
+OE: sundtekcontrolcenter-20210624-2
+
+
+Package: enigma2-plugin-extensions-timfs
+Version: .32
+Section: Utilities
+Architecture: all
+MD5Sum: 355112ce2af624cc0691fae3d600db3b
+Size: 27870
+Filename: enigma2-plugin-extensions-timfs_2.32_all.ipk
+Description: timFS
+Maintainer: shadowrider plugins@fs-plugins.de
+Priority: optional
+Homepage: www.fs-plugins.de
+OE: all
+
+
+Package: enigma2-plugin-extensions-spinnerselector
+Version: 2.3
+Section: misc
+Architecture: all
+MD5Sum: 0eca9f768bb89e89a62e17cf2ca492cb
+Size: 9719172
+Filename: enigma2-plugin-extensions-spinnerselector_2.3_all.ipk
+Description: 
+Maintainer: 
+Priority: optional
+
+
+Package: enigma2-plugin-extensions-camofs
+Version: 7.35
+Depends: python-imaging, python-subprocess
+Section: extra
+Architecture: all
+MD5Sum: d15c85582c9115c5e4bd5f9f4a8841e5
+Size: 394706
+Filename: enigma2-plugin-extensions-camofs_17.35_all.ipk
+Description: camoFS
+Maintainer: shadowrider plugins@fs-plugins.de
+Priority: optional
+Homepage: www.fs-plugins.de
+OE: all
+
+
+Package: enigma2-plugin-extensions-moviebrowser
+Version: 3.7rc3
+Depends: python-pyopenssl python-textutils python-misc
+Section: extra
+Architecture: all
+MD5Sum: ebce6a7d35945c5e77535ef6c73f6678
+Size: 1567082
+Filename: enigma2-plugin-extensions-moviebrowser_3.7rc3_all.ipk
+Description: Movie Browser Plugin
+Maintainer: kashmir
+Priority: optional
+Source: http://www.kashmir-plugins.de
+Homepage: http://www.kashmir-plugins.de
+
+
+Package: enigma2-plugin-extensions-xcplugin-iptv-mod-lululla
+Version: 6.7
+Depends: python-html
+Section: enigma2
+Architecture: all
+MD5Sum: 40e018230a16287d64310b8051b7be0b
+Size: 471194
+Filename: enigma2-plugin-extensions-xcplugin-iptv-mod-lululla_6.7_all.ipk
+Description: XCplugin-VOD-IPTV-CONVERT-REC-PLAYER-TEAM
+Maintainer: *
+Priority: optional
+Source: /
+Homepage: *
+OE: 2.0 - 2.2 - 2.5
+License: *
+
+
+Package: enigma2-plugin-extensions-gmailreader-oe2.0
+Version: 1.3
+Depends: 
+Section: extra
+Architecture: all
+MD5Sum: fb87595f217edc34eca4a8605baf5c5f
+Size: 202708
+Filename: enigma2-plugin-extensions-gmailreader-oe2.0_1.3_all.ipk
+Description: mailreader
+Maintainer: mfaraj57
+Priority: optional
+Source: 
+Homepage: unknown
+OE: gmailreader 1.3
+
+
+Package: enigma2-plugin-extensions-customsubservices
+Version: 0.1.3
+Section: extra
+Architecture: all
+MD5Sum: 458239599ca65b4d544f6aa31a0beb42
+Size: 7486
+Filename: enigma2-plugin-extensions-customsubservices_0.1.3_all.ipk
+Description: XML-based subservices switching
+Maintainer: monty03
+Priority: optional
+Homepage: none
+OE: enigma2-plugin-extensions-customsubservices
+
+
+Package: enigma2-plugin-extensions-xcplugin-forever
+Version: 2.2
+Section: extra
+Architecture: all
+MD5Sum: f6f01c8b6960db11dffbaac5cf68a958
+Size: 1018470
+Filename: enigma2-plugin-extensions-xcplugin-forever_2.2_all.ipk
+Description: plugin, for the free streaming.
+Maintainer: Lululla <ekekaz@gmail.com>
+Priority: optional
+Source: none
+Homepage: *
+OE: OE2.0
+
+
+Package: enigma2-plugin-extensions-fontmagnifier
+Version: 0.7.0
+Depends: enigma2
+Section: plugin
+Architecture: all
+MD5Sum: e4137ba92a78e29a7e1f981ab4110c4f
+Size: 24086
+Filename: enigma2-plugin-extensions-fontmagnifier_0.7.0_all.ipk
+Description: Tool to modify enigma 2 gui font sizes.
+Maintainer: BigReaper <BigReaper@gmx.net>, WanWizard (py3 fixes)
+Priority: optional
+Source: http://www.i-have-a-dreambox.com/wbb2/thread.php?threadid=124693
+Homepage: http://www.i-have-a-dreambox.com/wbb2/thread.php?threadid=124693
+
+
+Package: enigma2-plugin-extensions-webradiofs
+Version: 9.51
+Depends: python-sqlite3
+Section: extra
+Architecture: all
+MD5Sum: c7e8bccb6a6cf5dc15551e061b6489d2
+Size: 481730
+Filename: enigma2-plugin-extensions-webradiofs_19.51_all.ipk
+Description: webradioFS
+Maintainer: shadowrider plugins@fs-plugins.de
+Priority: optional
+Homepage: www.fs-plugins.de
+
+
+Package: enigma2-plugin-extensions-serienrecorder
+Version: 4.4.7
+Depends: enigma2, python-sqlite3, python-json, python-textutils, openssl, python-pyopenssl, python-zlib, python-compression, python-xmlrpc, python-difflib, python-numbers, python-subprocess, python-email, python-html, python-requests
+Section: extra
+Architecture: all
+MD5Sum: b1fcfefe10d2e2136028c37a82ae610e
+Size: 705890
+Filename: enigma2-plugin-extensions-serienrecorder_4.4.7_all.ipk
+Description: Erstellt automatisiert Timer fuer deine Lieblings-Serien - nie mehr eine Folge verpassen!
+Maintainer: einfall & w22754 & egn & MacDisein
+Priority: optional
+Source: https://github.com/einfall/serienrecorder
+Homepage: http://www.serienserver.de
+OE: linux-oe2.0
+License: GPL
+
+
+Package: enigma2-plugin-systemplugins-extnumberzap
+Version: 1.21
+Section: base
+Architecture: all
+MD5Sum: 83f8230c7580ce12141b62a564761fb9
+Size: 22378
+Filename: enigma2-plugin-systemplugins-extnumberzap_1.21_all.ipk
+Description: Extended NumberZap Plugin for Enigma2
+Maintainer: Dimitrij
+Priority: optional
+OE: enigma2
+
+
+Package: nigma2-plugin-extensions-tsmedia
+Version: 15.0
+Recommends: python-json,python-request
+Section: extra
+Architecture: all
+MD5Sum: e0d51b503503cb4f9ffb6dd67cbf866d
+Size: 7330658
+Filename: enigma2-plugin-extensions-tsmedia_15.0_all.ipk
+Description: streaming of all types of internet media
+Maintainer: mfaraj57 <@tunisia-sat.com>
+Priority: optional
+Source: file://TSmedia
+Homepage: http://www.tunisia-sat.com
+OE: enigma2-plugin-extensions-tsmedia
+License: CLOSED
+
+
+Package: enigma2-plugin-extensions-theweather
+Version: 5.0r05
+Depends: python
+Section: extra
+Architecture: all
+MD5Sum: 003c5dd9f54921cd2960d2f4f4c42387
+Size: 3703914
+Filename: enigma2-plugin-extensions-theweather_5.0r05_all.ipk
+Description: WeatherInfo Plugin
+Maintainer: Caught
+Priority: optional
+Source: http://openpli.org/
+Homepage: http://openpli.org/
+OE: 2.0
 
 
 Package: enigma2-plugin-extensions-cccaminfo
@@ -659,20 +497,44 @@ Homepage: *
 License: *
 
 
-Package: enigma2-plugin-systemplugins-bouquetsprotection
-Version: 0.2-rc1
-Depends: enigma2
+Package: enigma2-plugin-extensions-vuplusforum
+Version: 0.8rc2
+Section: extra
+Architecture: all
+MD5Sum: de6b982a2c486b285113b0fc07f9b0c5
+Size: 130016
+Filename: enigma2-plugin-extensions-vuplusforum_0.8rc2_all.ipk
+Description: VuPlus Support Forum Plugin
+Maintainer: kashmir
+Priority: optional
+Homepage: http://www.kashmir-plugins.de
+
+
+Package: enigma2-plugin-extensions-pravoslavietv
+Version: 0.2
+Recommends: curl
 Section: base
 Architecture: all
-MD5Sum: 85b1018dd4253caf2a9b6d7c39a66b2c
-Size: 8724
-Filename: enigma2-plugin-systemplugins-bouquetsprotection_0.2-rc1_all.ipk
-Description: systemplugins Bouquets Protection.
-Maintainer: vlamo <vlamo@ukr.net>
+MD5Sum: 54b339f12f037ffb9bbde88898d9b379
+Size: 177750
+Filename: enigma2-plugin-extensions-pravoslavietv_0.2_all.ipk
+Description: IPTV - Soyuz, Spas, Voskresenie, Radonezh
+Maintainer: Dimitrij <dima-73@inbox.lv>
 Priority: optional
-Source: http://dream.altmaster.net/
-Homepage: http://dream.altmaster.net/
-OE: enigma2
+
+
+Package: enigma2-plugin-extensions-planerfs
+Version: .43
+Depends: ython-datetime
+Section: extra
+Architecture: all
+MD5Sum: 70c1015a65c3c1726abba0235c1dc169
+Size: 618230
+Filename: enigma2-plugin-extensions-planerfs_9.43_all.ipk
+Description: Calendar, appointment and address management
+Maintainer: shadowrider plugins@fs-plugins.de
+Priority: optional
+Homepage: www.fs-plugins.de
 
 
 Package: enigma2-plugin-extensions-csfd
@@ -691,32 +553,170 @@ OE: enigma2-plugins
 License: unknown
 
 
-Package: enigma2-plugin-extensions-xbmcwetter
-Version: 1.4rc1
+Package: enigma2-plugin-extensions-apcupsd-tools
+Version: 1.4
+Depends: libwrap0, libusb-0.1-4
+Section: base
+Architecture: all
+MD5Sum: af2c4dd4883df63808b833cef4f744ff
+Size: 538774
+Filename: enigma2-plugin-extensions-apcupsd-tools_1.4_all.ipk
+Description: UPS power management for APC products
+Maintainer: Dimitrij <Dima-73@inbox.lv>
+Priority: optional
+Homepage: openpli
+OE: 2.0
+License: unknown
+
+
+Package: enigma2-plugin-extensions-mp3browser
+Version: 2.0rc1
+Depends: python-mutagen
 Section: extra
 Architecture: all
-MD5Sum: 19166c7243a6a461fb1892aefb443697
-Size: 6650526
-Filename: enigma2-plugin-extensions-xbmcwetter_1.4rc1_all.ipk
-Description: xbmc Wetter Plugin
+MD5Sum: 02fd4c3ebdc15e85c0e258fd34bc3cb0
+Size: 780532
+Filename: enigma2-plugin-extensions-mp3browser_2.0rc1_all.ipk
+Description: MP3 Browser Plugin
 Maintainer: kashmir
 Priority: optional
+Source: http://www.kashmir-plugins.de
 Homepage: http://www.kashmir-plugins.de
 
 
-Package: enigma2-plugin-extensions-theweather
-Version: 5.0r05
-Depends: python
+Package: enigma2-plugin-extensions-ehue
+Version: 0.2-r0
+Depends: python-simplejson
 Section: extra
 Architecture: all
-MD5Sum: 003c5dd9f54921cd2960d2f4f4c42387
-Size: 3703914
-Filename: enigma2-plugin-extensions-theweather_5.0r05_all.ipk
-Description: WeatherInfo Plugin
-Maintainer: Caught
+MD5Sum: 9ad868cb5c48cfc107e6ed20342d7cb3
+Size: 37390
+Filename: enigma2-plugin-extensions-ehue_0.2-r0_all.ipk
+Description: enigma2-plugin-extensions-ehue version 0.2-r0
+Maintainer: DarkVolli
 Priority: optional
-Source: http://openpli.org/
-Homepage: http://openpli.org/
-OE: 2.0
+Source: file://*.py file://*.png
+Homepage: http://www.dreambox-tools.info
+OE: enigma2-plugin-extensions-ehue
+License: GPL
+
+
+Package: enigma2-plugin-extensions-mediainfo
+Version: 3.0.8
+Depends: python-requests (>= 2.0.0)
+Section: extra
+Architecture: all
+MD5Sum: 72003e0bcbbe20b378f21fdf2778a607
+Size: 10816
+Filename: enigma2-plugin-extensions-mediainfo_3.0.8_all.ipk
+Description: MediaInfo
+Maintainer: MP
+Priority: optional
+Source: GIT
+Homepage: none
+OE: MediaInfo
+
+
+Package: enigma2-plugin-extensions-picturecenterfs
+Version: .39
+Depends: python-imaging
+Section: extra
+Architecture: all
+MD5Sum: 8eec2c3dec04d7315ce65f5ee4251504
+Size: 256148
+Filename: enigma2-plugin-extensions-picturecenterfs_8.39_all.ipk
+Description: View and manage your pictures faster and easily
+Maintainer: shadowrider plugins@fs-plugins.de
+Priority: optional
+Homepage: www.fs-plugins.de
+
+
+Package: enigma2-plugin-systemplugins-channelselectionnavigator
+Version: 1.5
+Section: base
+Architecture: all
+MD5Sum: ee86438d190a62db15dd2d70c5d4b9fb
+Size: 14550
+Filename: enigma2-plugin-systemplugins-channelselectionnavigator_1.5_all.ipk
+Description: navigator for channel selection
+Maintainer: 
+Priority: optional
+OE: enigma2
+License: unknown
+
+
+Package: enigma2-plugin-extensions-screensaver
+Version: 5.7.1
+Section: extra
+Architecture: all
+MD5Sum: cde074616849391ef8f7bb1fc5b7c218
+Size: 2336352
+Filename: enigma2-plugin-extensions-screensaver_5.7.1_all.ipk
+Description: Screensaver for Enigma2
+Maintainer: gutemine <gutemine@dummy.com>
+Priority: optional
+OE: screensaver-5.7
+
+
+Package: enigma2-plugin-extensions-filesearchfs
+Version: .0
+Section: extra
+Architecture: all
+MD5Sum: a0f339ec40971069b0f16b951c8d9c91
+Size: 34816
+Filename: enigma2-plugin-extensions-filesearchfs_3.0_all.ipk
+Description: search files and folders
+Maintainer: shadowrider plugins@fs-plugins.de
+Priority: optional
+Source: 
+Homepage: www.fs-plugins.de
+
+
+Package: enigma2-plugin-extensions-skyrecorder
+Version: 2.1.1d-py2
+Depends: libsqlite3-0, python-sqlite3, python-html, python-json, python-requests
+Conflicts: enigma2-plugin-extensions-skyanytime
+Replaces: enigma2-plugin-extensions-skyanytime
+Section: misc
+Architecture: all
+MD5Sum: 6da5b309d0729afe25c7be3e45b2bc9e
+Size: 391338
+Filename: enigma2-plugin-extensions-skyrecorder_2.1.1d-py2_all.ipk
+Description: SkyRecorder - a plugin to add automatically timers for new SKY broadcasts - using API to download coverfiles from TMDB - change to FHD Skins
+Maintainer: einfall greysky matzze2000 dre Hilfsbereit murxer Fitz'
+Priority: optional
+Homepage: http://www.vuplus-support.org/wbb3/index.php?page=Thread&threadID=94151
+
+
+Package: enigma2-plugin-extensions-transmission
+Version: 2.92-r2
+Depends: transmission, libevent, libcurl4, libc6, libgnutls-openssl27, libgcrypt, libgpg-error, libssl*, libcrypto*, libz1
+Section: network
+Architecture: all
+MD5Sum: cb2046f4a6c343c7ed7ca23d1e01c298
+Size: 3454
+Filename: enigma2-plugin-extensions-transmission_2.92-r2_all.ipk
+Description: Transmission is a BitTorrent client w/ a built-in Ajax-Powered Webif GUI.
+Maintainer: OpenEmbedded Team <openembedded-devel@lists.openembedded.org>
+Priority: optional
+Homepage: www.transmissionbt.com/
+OE: transmission-2.92
+License: GPLv2
+
+
+Package: enigma2-plugin-systemplugins-bouquetsprotection
+Version: 0.2-rc1
+Depends: enigma2
+Section: base
+Architecture: all
+MD5Sum: 85b1018dd4253caf2a9b6d7c39a66b2c
+Size: 8724
+Filename: enigma2-plugin-systemplugins-bouquetsprotection_0.2-rc1_all.ipk
+Description: systemplugins Bouquets Protection.
+Maintainer: vlamo <vlamo@ukr.net>
+Priority: optional
+Source: http://dream.altmaster.net/
+Homepage: http://dream.altmaster.net/
+OE: enigma2
 
 
